@@ -3,8 +3,8 @@
   <channel>
     <title>curtomil (crtml)</title>
     <description>Socia(l / ble) Scientist</description>
-    <link></link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://blog.curtomil.net</link>
+    <atom:link href="http://blog.curtomil.net/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Sometimes, you find an amazing free or open source</title>
@@ -19,8 +19,8 @@
 &lt;p&gt;I wonder if the GNUs are doing something to facilitate this?&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Aug 2014 00:00:00 +0200</pubDate>
-        <link>/Sometimes-you-find-an-amazing-free-or-open-source</link>
-        <guid isPermaLink="true">/Sometimes-you-find-an-amazing-free-or-open-source</guid>
+        <link>http://blog.curtomil.net/Sometimes-you-find-an-amazing-free-or-open-source</link>
+        <guid isPermaLink="true">http://blog.curtomil.net/Sometimes-you-find-an-amazing-free-or-open-source</guid>
       </item>
     
       <item>
@@ -28,8 +28,8 @@
         <description>&lt;p&gt;Easy as pie.&lt;/p&gt;
 </description>
         <pubDate>Mon, 11 Aug 2014 00:00:00 +0200</pubDate>
-        <link>/easypost</link>
-        <guid isPermaLink="true">/easypost</guid>
+        <link>http://blog.curtomil.net/easypost</link>
+        <guid isPermaLink="true">http://blog.curtomil.net/easypost</guid>
       </item>
     
       <item>
@@ -40,8 +40,8 @@ The reason for doing this is the simplicity behind static sites. I was (am) gett
 &lt;p&gt;Thanks Barry! I can now read papers and do &lt;em&gt;my thing&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 03 Mar 2014 00:00:00 +0100</pubDate>
-        <link>/Hello-World</link>
-        <guid isPermaLink="true">/Hello-World</guid>
+        <link>http://blog.curtomil.net/Hello-World</link>
+        <guid isPermaLink="true">http://blog.curtomil.net/Hello-World</guid>
       </item>
     
   </channel>

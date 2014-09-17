@@ -3,7 +3,7 @@
   
   
   <url>
-    <loc>/Sometimes-you-find-an-amazing-free-or-open-source</loc>
+    <loc>http://blog.curtomil.net/Sometimes-you-find-an-amazing-free-or-open-source</loc>
     
     <lastmod>2014-08-21T00:00:00+02:00</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>/easypost</loc>
+    <loc>http://blog.curtomil.net/easypost</loc>
     
     <lastmod>2014-08-11T00:00:00+02:00</lastmod>
     
@@ -19,7 +19,7 @@
   </url>
   
   <url>
-    <loc>/Hello-World</loc>
+    <loc>http://blog.curtomil.net/Hello-World</loc>
     
     <lastmod>2014-03-03T00:00:00+01:00</lastmod>
     
@@ -28,36 +28,36 @@
   
   
   <url>
-    <loc>/404.html</loc>
-    <lastmod>2014-09-17T10:27:38+02:00</lastmod>
+    <loc>http://blog.curtomil.net/404.html</loc>
+    <lastmod>2014-09-17T10:42:23+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2014-09-17T10:27:38+02:00</lastmod>
+    <loc>http://blog.curtomil.net/</loc>
+    <lastmod>2014-09-17T10:42:23+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>/thanks/</loc>
-    <lastmod>2014-09-17T10:27:38+02:00</lastmod>
+    <loc>http://blog.curtomil.net/about/</loc>
+    <lastmod>2014-09-17T10:42:23+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>/research/</loc>
-    <lastmod>2014-09-17T10:27:38+02:00</lastmod>
+    <loc>http://blog.curtomil.net/research/</loc>
+    <lastmod>2014-09-17T10:42:23+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>/about/</loc>
-    <lastmod>2014-09-17T10:27:38+02:00</lastmod>
+    <loc>http://blog.curtomil.net/thanks/</loc>
+    <lastmod>2014-09-17T10:42:23+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -65,157 +65,157 @@
   
   
   <url>
-    <loc>/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/index.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/index.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/index.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/index.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/index.js.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/index.js.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/cloneBuffer.js.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/cloneBuffer.js.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/index.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/index.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/inspectStream.js.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/inspectStream.js.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isBuffer.js.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isBuffer.js.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isNull.js.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isNull.js.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isStream.js.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/gulp-util/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isStream.js.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/index.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/index.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/index.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/index.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/index.js.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/index.js.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/cloneBuffer.js.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/cloneBuffer.js.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/index.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/index.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/inspectStream.js.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/inspectStream.js.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isBuffer.js.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isBuffer.js.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isNull.js.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isNull.js.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isStream.js.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/coverage/lcov-report/vinyl/lib/isStream.js.html</loc>
     <lastmod>2014-09-01T20:17:42Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/json/docs/json.1.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/json/docs/json.1.html</loc>
     <lastmod>2014-05-30T18:08:21Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/writefile/node_modules/lift-result/node_modules/result/node_modules/result-core/node_modules/next-tick/test.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/writefile/node_modules/lift-result/node_modules/result/node_modules/result-core/node_modules/next-tick/test.html</loc>
     <lastmod>2013-06-10T11:16:17Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/yamljs/demo/demo.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/yamljs/demo/demo.html</loc>
     <lastmod>2014-09-02T10:03:14Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/yamljs/node_modules/argparse/node_modules/underscore/index.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/yamljs/node_modules/argparse/node_modules/underscore/index.html</loc>
     <lastmod>2013-01-30T03:13:48Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/yamljs/node_modules/argparse/node_modules/underscore.string/test/test.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/yamljs/node_modules/argparse/node_modules/underscore.string/test/test.html</loc>
     <lastmod>2013-07-10T11:41:16Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/yamljs/node_modules/argparse/node_modules/underscore.string/test/test_standalone.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/yamljs/node_modules/argparse/node_modules/underscore.string/test/test_standalone.html</loc>
     <lastmod>2013-07-10T11:41:16Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/yamljs/node_modules/argparse/node_modules/underscore.string/test/test_underscore/index.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/yamljs/node_modules/argparse/node_modules/underscore.string/test/test_underscore/index.html</loc>
     <lastmod>2013-07-11T10:39:45Z</lastmod>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>/node_modules/yamljs/test/test.html</loc>
+    <loc>http://blog.curtomil.net/node_modules/yamljs/test/test.html</loc>
     <lastmod>2014-09-02T09:58:35Z</lastmod>
     <priority>0.6</priority>
   </url>
