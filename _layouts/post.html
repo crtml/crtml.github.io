@@ -5,7 +5,7 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
- {% capture time %}{{ content | reading_time }}{% endcapture %}
+ <!-- {% capture time %}{{ content | reading_time }}{% endcapture %} -->
  <div style="margin: auto; text-align: center">This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.
  </div>
 
@@ -76,7 +76,7 @@ layout: default
 </ul> -->
 
 <!-- This code is from Phil Hawksworth(http://hawksworth.com), adapted by me-->
-<form action="http://pooleapp.com/stash/f729e2d6-9026-47cb-b363-6103424f34e4/" method="post" id="comment-form" class="comment-form">
+<!-- <form action="" method="post" id="comment-form" class="comment-form">
   <h2>Leave your comment</h2>
   <p>
     <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> is allowed, but HTML is not. Neither is spam thanks.
@@ -88,7 +88,7 @@ layout: default
   <label for="email">Your email <span>(I'll never spam you)</span></label><input type="text" name="email">
   <label for="comment">Your comment</label><textarea name="comment" class="comment-text"></textarea>
   <input type="submit" value="Post comment" class="submit" />
-</form>
+</form> -->
 
   {% include disqus.html disqus_identifier=page.disqus_identifier %}
 </article>
