@@ -5,20 +5,20 @@ var fs = require('atomic-write');
 var gravatar = require('gravatar');
 var shell = require('gulp-shell');
 
-var paths = {
-source: '_site',
-deploy: 'dist'
-};
+// var paths = {
+// source: '_site',
+// deploy: 'dist'
+// };
 
 // build jekyll
-gulp.task('jekyll', function() {
-return gulp.src('', {quiet: false})
-.pipe(shell([
-'rm -rf ' + paths.deploy,
-'jekyll build',
-'cp -R _site/ ' + paths.deploy
-]));
-});
+// gulp.task('jekyll', function() {
+// return gulp.src('', {quiet: false})
+// .pipe(shell([
+// 'rm -rf ' + paths.deploy,
+// 'jekyll build',
+// 'cp -R _site/ ' + paths.deploy
+// ]));
+// });
 
 gulp.task('default', function() {
   // place code for your default task here

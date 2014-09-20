@@ -1,0 +1,444 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "_reset";
+@import "_variables";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+	background: $white;
+  font: 18px/1.4 $helvetica;
+  color: $gray;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $helveticaNeue;
+  color: $darkerGray;
+  font-weight: 600;
+  
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+  
+h1 {  
+  font-weight: 500;
+  font-size: 32px;
+  a {
+    color: inherit;
+  }
+}
+
+h2 {  
+  font-weight: 400;
+  font-size: 24px;
+}
+
+h3 {  
+  font-size: 18px;
+}
+
+h4 {  
+  font-size: 18px;
+  color: $gray;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &:active {
+    color: $blue;
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+}
+
+.date {
+  font-style: italic;
+  color: $gray;
+}
+
+// Specify the color of the selection
+::-moz-selection {
+  color: $black;
+  background: $lightGray;
+}
+::selection {
+  color: $black;
+  background: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+  margin-bottom: 50px;
+}
+
+.masthead {
+  padding: 20px 0;
+  border-bottom: 1px solid $lightGray;
+  
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: $darkerGray;
+  cursor: pointer;
+  font-family: $helveticaNeue; 
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: $gray;
+  font-size: 16px;
+  
+  @include mobile {
+    margin: 3px 0;
+  }
+}
+
+nav {
+  float: right;
+  margin-top: 23px; // @TODO: Vertically middle align
+  font-family: $helveticaNeue; 
+  font-size: 18px;
+  
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    margin-left: 20px;
+    color: $darkerGray;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $blue;
+    }
+  }
+}
+
+//
+// .main
+//
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post { 
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "_highlights";
+
+//
+// Comments
+//
+// 
+// This code is from Phil Hawksworth(http://hawksworth.com), adapted by me
+// 
+
+ul.comments {
+  img {
+    width: 40px;
+    height: 40px;
+    border: solid 1px #ccc;
+    padding: 2px;
+    margin-right: 8px;
+    float:left;
+  }
+  .commenter {
+    float:left;
+  }
+  div {
+    display: block;
+    clear: left;
+    //padding-top: $content-buffer;
+  }
+}
+  
+  .comment {
+    ul li {
+      border-style: none;
+      padding: 0;
+      margin:0;
+    }
+    h1, h2, h3, h4, h5 {
+      color: #333;
+      margin:1em 0 0.5em;
+      font-size: 1em;
+    }
+
+    h1 {
+      font-size: 1.8em;
+    }
+    h2 {
+      font-size: 1.6em;
+    }
+
+    code {
+      display: block;
+      padding: 1em;
+      font-size: 0.7em;
+      background-color: #333;
+      color:#eee;
+    }
+  }
+
+  .comment-form {
+    background-color: #eee;
+    padding: 1px 32px 32px 32px;
+
+    label {
+      display:block;
+      color:555;
+      margin-top: 0.6em;
+      font-size: 0.9em;
+
+      span {
+        color: #aaa;
+        margin-left:0.2em;
+      }
+    }
+
+    input, textarea {
+      font-size: 1em;
+      width: 100%;
+      padding:  0.2em 0.4em;
+    }
+  // }
+
+  .submit {
+    margin-top: 0.6em;
+    background-color: #333;
+    color:#eee;
+    padding: 0.6em;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer; 
+
+    &:hover {
+      //background-color: $accent-color;
+      color: #fff;
+    }
+  }
+
+  textarea {
+    width: 100%;
+    height: 10em;
+    }
+  }
+
+    //form.search {
+    //margin: 1em 0;
+    //padding:2em;
+    //background-color: #eee;
+    //border-radius: 2px;
+
+    form.input {
+      font-size: 1.2em;
+      font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+      padding: 0.2em;
+      margin:0.2em;
+      color: #555;
+      width: 60%;
+    }
+
+  ul.listing {
+  margin: 1em 0 3em;
+  list-style: none;
+  border-top: 1px solid #eee; 
+}
+ul.listing li {
+  padding: 0.8em 0;
+  border-bottom: 1px solid #eee; 
+}
+ul.listing time {
+  display: block;
+  color:#bbb;
+  font-size: 0.8em;
+}
+
+.listing {
+
+  margin:1em 0 3em;
+
+  h2 {
+    margin:0;
+  
+    a {
+      &:link,
+      &:visited {
+        color: #000;
+        border-bottom-style: none;
+        display: inline-block;
+      }
+      &:hover,
+      &:focus {
+        color: #fff;
+        background-color: #000;
+        padding: 6px 8px;
+        margin: -6px -8px;
+      }
+    }
+.grab {
+    font-style:normal;
+    font-size: 1em;
+    margin: 1em 0;
+  }
+  
+}
+  }
