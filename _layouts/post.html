@@ -5,10 +5,10 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
 
-{% capture time %}{{ content | reading_time }}{% endcapture %}
+<!-- {% capture time %}{{ content | reading_time }}{% endcapture %}
 <div class="date" align="center">
      |---- Written on {{ page.date | date: "%B %e, %Y" }} --- This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.----|
-</div>
+</div> -->
 
   <div class="entry">
     {{ content }}
