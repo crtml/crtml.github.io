@@ -1,4 +1,4 @@
-_site
+./_site
 .DS_Store
 .jekyll
 .bundle
@@ -13,3 +13,4 @@ src
 _plugins
 CNAME
 .gitignore
+dist
