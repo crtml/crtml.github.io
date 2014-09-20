@@ -1,4 +1,3 @@
-_site
 .DS_Store
 .jekyll
 .bundle
@@ -9,7 +8,6 @@ node_modules
 package.json
 gulpfile.js
 node_modules
-src
 _plugins
 CNAME
 .gitignore

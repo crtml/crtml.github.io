@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>curtomil (crtml)</title>
+    <description>Socia(l / ble) Scientist</description>
+    <link>http://blog.curtomil.net</link>
+    <atom:link href="http://blog.curtomil.net/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Sometimes, you find an amazing free or open source</title>
+        <description>&lt;p&gt;Sometimes, you find an amazing free or open source software that you think should be working very well, and is in fact, not so much. At least, not as it should. I’ve got two in mind. One is an online book (and publishing system, please let’s have better sdk docs!) about typography; the other is a publishing system for academics. They both should work great, have a following, and make headway into institutions.&lt;/p&gt;
+
+&lt;p&gt;In the academic space, researchers are clinging on word documents which output the same, boring files. Granted, the publishers are partly to be blamed: they seldom accept anything which isn’t a .doc file. Goodbye LaTeX! It’s unfairly labouring if you want to use anything else than an expensive package that holds a monopoly over a closed formatting. That’s where &lt;em&gt;Fidus&lt;/em&gt; comes in. Fidus is a web app which takes text and typesets it in PDF, HTML, or ePub. Makes sense right? Why should the writer worry about how every single element looks? This is the publisher’s job!&lt;/p&gt;
+
+&lt;p&gt;The other is a great little book with quick advice and context on typography. Yet only about 10% of the 700,000 visitors have left some money behind. It would not have had such publicity if not open source, but still, it’s sad it didn’t get more. &lt;/p&gt;
+
+&lt;p&gt;I don’t blame so much the people, but the way to contribute to online—especially &lt;em&gt;libre&lt;/em&gt;—content is not satisfactory. There are myriads of online paying systems, but none as open and transparent as should be. I imagine a little button somewhere in the front page that works like flattr in which a small and discretionary amount can be given. Even a pledge system would work well, where people pledge each month a small quantity to share among &lt;em&gt;libre&lt;/em&gt; content, with the money shipped after being given a chance to review and change the pledges. Set aside 10€ to share among your visits, give a little to Linux Mint, give a little to Fidus, give a little to a podcast. If every one who had spent a significant time on hoe typography website had payed a minuscule amount, the project would be much more successful. &lt;/p&gt;
+
+&lt;p&gt;I wonder if the GNUs are doing something to facilitate this?&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Aug 2014 00:00:00 +0200</pubDate>
+        <link>http://blog.curtomil.net/Sometimes-you-find-an-amazing-free-or-open-source</link>
+        <guid isPermaLink="true">http://blog.curtomil.net/Sometimes-you-find-an-amazing-free-or-open-source</guid>
+      </item>
+    
+      <item>
+        <title>Posting with jekyll</title>
+        <description>&lt;p&gt;Easy as pie.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Aug 2014 00:00:00 +0200</pubDate>
+        <link>http://blog.curtomil.net/easypost</link>
+        <guid isPermaLink="true">http://blog.curtomil.net/easypost</guid>
+      </item>
+    
+      <item>
+        <title>Using Github pages and Jekyll Now for blog</title>
+        <description>&lt;p&gt;I had wanted to do this a long time ago, but had so little time. Finally,  thanks to the really simple &lt;a href=&quot;http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/&quot;&gt;instructions&lt;/a&gt; from Barry Clark, the developer behind &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot;&gt;Jekyll Now&lt;/a&gt;, I can start blogging here already. Jekyll Now is an already built structure of Jekyll with template included, so just fork it and change it. It’s really simple. Had thought of using &lt;a href=&quot;http://jaspervdj.be/hakyll/&quot;&gt;Hakyll&lt;/a&gt;, and I will, but shall wait for the Raspberry Pi to arrive and build my new server first. 
+The reason for doing this is the simplicity behind static sites. I was (am) getting fed up of the flurry of super, ultra, widgets in your face.&lt;/p&gt;
+
+&lt;p&gt;Thanks Barry! I can now read papers and do &lt;em&gt;my thing&lt;/em&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Mar 2014 00:00:00 +0100</pubDate>
+        <link>http://blog.curtomil.net/Hello-World</link>
+        <guid isPermaLink="true">http://blog.curtomil.net/Hello-World</guid>
+      </item>
+    
+  </channel>
+</rss>
