@@ -7,5 +7,9 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
-.gulpfile.js
-_node_modules
+gulpfile.js
+node_modules
+src
+_plugins
+CNAME
+.gitignore
