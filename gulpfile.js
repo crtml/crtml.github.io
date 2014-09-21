@@ -3,22 +3,7 @@ var http = require('http');
 var yaml = require('yamljs');
 var fs = require('atomic-write');
 var gravatar = require('gravatar');
-var shell = require('gulp-shell');
 
-var paths = {
-source: 'src',
-deploy: '_site'
-};
-
-build jekyll
-gulp.task('jekyll', function() {
-return gulp.src('', {quiet: false})
-.pipe(shell([
-'rm -rf ' + paths.deploy,
-'jekyll build',
-'cp -R _site/ ' + paths.deploy
-]));
-});
 
 gulp.task('default', function() {
   // place code for your default task here
@@ -62,7 +47,7 @@ gulp.task("comments", function() {
 
       // convert the json to yaml and save it for jekyll to use.
       var ymlText = yaml.stringify(comments);
-      fs.writeFile('./src/_data/comments.yml', ymlText, function(err) {
+      fs.writeFile('./_data/comments.yml', ymlText, function(err) {
         if(err) {
           console.log(err);
         } else {

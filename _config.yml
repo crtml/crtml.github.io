@@ -11,9 +11,10 @@ description: Socia(l / ble) Scientist
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://pbs.twimg.com/profile_images/1650831321/hawat81_gmail.com_fa07d7a3_400x400.jpg
 
-source: ./src
+source: .
 destination: ./_site
 exclude: node_modules
+port: 4000
 #
 # Flags below are optional
 #
@@ -61,7 +62,7 @@ version: v1.0.0
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  sass_dir: ./css/_scss
+  sass_dir: css/_scss
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins

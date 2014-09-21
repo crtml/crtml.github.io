@@ -6,7 +6,7 @@ layout: default
   <h1>{{ page.title }}</h1>
 
  {% capture time %}{{ content | reading_time }}{% endcapture %}
- <div style="margin: auto; text-align: center">This article will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.
+ <div style="margin: auto; text-align: center">This post will take {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %} to read.
  </div>
 
   <div class="entry">
