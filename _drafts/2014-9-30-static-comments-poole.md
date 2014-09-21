@@ -1,0 +1,17 @@
+---
+title: Building a static website with Jekyll and Poole
+layout: post
+published: draft
+...
+
+Almost every website provider or blogging system nowadays is tech heavy, relying on dynamic javascript or other dynamic languages to make the web seem more alive. Yet, in many of these solutions, the user and the content provider seem both at the hands of the technology and subservient to its owner. The social aspect becomes *entangled* with the tech, instead of complementing each other. It's the badly called Web 2.0 which pulls on people a magic show to rob them of their money, their time, and sometimes their own private selves. Web 2.0 tries to leave the feeling in your mind that without the technology (and those that are graciously giving it to you), you are outside of the world; you are *other*. Here, I explain my reasons, and the steps why I have decided to skip the Web 2.0, at least, as much as realistically possible. Maybe the Web 3.0 will be better and more ethical.
+
+## The Reason behind Static
+Because it is in large parts unethical, and almost impossible to evade it. The Web 2.0, even its stupid name, is ever haunting your web surfing, defining your presence online and offline. You have to participate in it,and once you do, you are stuck. Yet, there was a time, and there are still a few places which do not compromise your self with the web itself, which do not turn it into a panopticon at the service of technologically and organisationally superior entities to which would owe your web bodies. Lanier speaks of this well in his book, *"You are not a Gadget"*, that there had been an explosion of creativity on both content and form when the web had hit mainstream. He argues, this early explosion is endangered by the social media that format your information, what you should out, determining how things should be interesting. 
+
+This is why I chose to make this site as a small, voluntarily minimal web presence of mine, and to make it as static as possible. Just as I want to have some say in how I dress, I also want to be able to be an *active* actor in revealing myself, or part of myself on the web. 
+
+##  Static in One Word: Jekyll
+Jekyll is a ruby-based framework which helps you compile a static website. Because you build your own website, Jekyll allows you to influence your presence to a large extent. With it, and the little understanding needed to play with it, I reverse the trend of owing to organisations which do not really care about me, but are interested solely on the data I provide them with. Granted, this blog will be gobbled by dozens of web crawlers, but at least, they won't be the *gatekeepers* of my interaction with my presence. I won't owe them my web body. 
+
+In the following weeks, I will put detailed explanations of the steps I took to get back my web presence, and the places where I did not succeed. I will also explain the reasoning behind this resistance to become assimilated by services which technologies and algorithms I have neither access nor control over. In contrast, though requiring a bit of techie knowledge, I can have a more *transparent engagement* with technologies that mediate the selves I project here. In other future posts, beyond explaining the steps to deploy a static site, I will write some code that can lower the techie barrier and give a nudge to any other who wants to buy himself back on the web. 
