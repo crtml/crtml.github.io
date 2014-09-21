@@ -13,7 +13,7 @@ avatar: https://pbs.twimg.com/profile_images/1650831321/hawat81_gmail.com_fa07d7
 
 source: ./src
 destination: ./_site
-port: 4000
+exclude: node_modules
 #
 # Flags below are optional
 #
