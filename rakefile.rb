@@ -18,7 +18,7 @@ task :generate do
 end
 
 
-desc "Generate and publish blog to gh-pages"
+desc "Generate and publish blog to master branch"
 task :publish => [:generate] do
   Dir.mktmpdir do |tmp|
     cp_r "_site/.", tmp
@@ -36,4 +36,14 @@ task :publish => [:generate] do
     Dir.chdir pwd
   end
 end
+
+  desc "Push source to source branch"
+  # task :publish => [:generate] do
+  task :pushSource do
+    system "git init"
+    system "git add --all"
+    message = "Site updated at #{Time.now.utc}"
+    system "git commit -m #{message.inspect}"
+    system "git push origin source"
+  end
 
