@@ -55,7 +55,7 @@ baseurl: ""
 
 markdown: kramdown
 highlighter: pygments
-permalink: /:title
+permalink: /blog/:year/:month/:day/:title
 
 # The release of Jekyll Now that you're using
 version: v1.0.0
@@ -70,7 +70,7 @@ gems:
   - jemoji # Emoji please!
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - ./_plugins/reading_time
-  - jekyll-scholar
+  - jekyll/scholar
 
 # Scholar configuration
 scholar:
@@ -81,8 +81,8 @@ scholar:
   order: ascending
 
   source: ./_bibliography
-  bibliography: references.bib
-  bibliography_template: "{{ reference }}"
+  bibliography: lit.bib
+  bibliography_template: "{{reference}}"
 
   replace_strings: true
   join_strings:    true

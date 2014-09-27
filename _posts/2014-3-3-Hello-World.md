@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Github pages and Jekyll Now for blog
+title: Github (User-)Pages and Jekyll Now for Blogs
 published: true
 ---
 

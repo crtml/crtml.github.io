@@ -13,19 +13,32 @@
 /* BASE RULES */
 /**************/
 
+// Fonts
+@font-face {
+font-family: 'FiraSans';
+src: url('css/fonts/FiraSans/FiraSans-Regular.eot');
+src: url('css/fonts/FiraSans/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/FiraSans/FiraSans-Regular.woff') format('woff'),
+url('css/fonts/FiraSans/FiraSans-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
 html {
   font-size: 100%;
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  // font: 18px/1.4 $helveticaNeue;
+  font: 20px/1.7 $fira;
   color: $gray;
+  hyphens: auto;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 720px;
   padding: 0 10px;
   width: 100%;
 }
@@ -33,7 +46,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
-  font-weight: 600;
+  font-weight: 300;
+  font-variant: small-caps;
   
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -48,7 +62,7 @@ h1 {
   font-weight: 500;
   font-size: 32px;
   a {
-    color: inherit;
+    color: $blue;
   }
 }
 
@@ -58,7 +72,8 @@ h2 {
 }
 
 h3 {  
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 h4 {  
@@ -68,6 +83,7 @@ h4 {
 
 p {
   margin: 15px 0;
+  hyphens: auto;
 }
 
 a {
@@ -76,6 +92,8 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
+    background-color: $lightBlue;
+    border-radius: 5px;
   }
 }
 
@@ -110,20 +128,23 @@ strong, b {
 
 img {
   max-width: 100%;
+  border-radius: 5px;
+
 }
 
 .date {
-  font-style: italic;
+  // font-style: italic;
   color: $gray;
+  font-size: 12px;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
+  color: $blue;
   background: $lightGray;
 }
 ::selection {
-  color: $black;
+  color: $blue;
   background: $lightGray;
 }
 
@@ -189,12 +210,13 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkerGray;
+  color: $blue;
   cursor: pointer;
   font-family: $helveticaNeue; 
-  font-weight: 300;
+  font-weight: 200;
   font-size: 28px;
   letter-spacing: 1px;
+  font-variant: normal;
 }
 
 .site-description {
@@ -222,9 +244,9 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkerGray;
+    color: $blue;
     text-align: right;
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 1px;
 
     @include mobile {
@@ -232,6 +254,11 @@ nav {
       color: $blue;
     }
   }
+}
+
+.footnotes{
+  border-top: 1px solid $lightGray;
+
 }
 
 //
@@ -263,8 +290,9 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
+    // text-transform: uppercase;
+    font-variant: small-caps;
+    font-size: 20px;
   }
 }
 

@@ -12,3 +12,6 @@ _plugins
 CNAME
 .gitignore
 dist
+_bibliography
+blog.sublime-project
+blog.sublime-workspace

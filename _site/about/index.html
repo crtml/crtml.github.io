@@ -47,19 +47,41 @@
   <h1>About</h1>
 
   <div class="entry">
-    <p>Some information about you! Works?</p>
+    <!-- # About -->
+<p>This is my home website. It contains information about my work and the things I find interesting. These are various, but I talk mostly about these things:</p>
 
-<h3 id="more-information">More Information</h3>
+<ul>
+  <li>Research in open source and social informatics (software studies, information systems, media)</li>
+  <li>The web</li>
+  <li>Games in Linux</li>
+  <li>The occasional dash of programming I can manage</li>
+</ul>
 
-<h2 id="heading">Heading</h2>
+<h2 id="who-i-am">Who I am</h2>
+<p>I am a PhD candidate at the LSE, researching requirements in open source software. I particularly like the multi-disciplinarian approach to study technology that the LSE allows for. In some ways, I’m looking at the dark side of software: the complicated, unclear aspects, and the social consequences of technology use. </p>
 
-<h1 id="heading-1">Heading</h1>
+<p>You can find out more in the <a href="/research">research</a> section. </p>
 
-<p>A place to include any other types of information that you’d like to include about yourself. </p>
+<h2 id="how-this-web-is-built">How this web is built</h2>
+<p>This website uses a number of technologies, and was inspired in its looks and construction by adapting the work of a number of people. </p>
 
-<h3 id="contact-me">Contact me</h3>
+<h3 id="base">Base</h3>
+<p>For the general possibility of holding a static blog, I have to thank the people behind the <a href="http://www.jekyllrb.com">Jekyll</a> framework. Jekyll parses files and generates a static structure. The Jekyll server just relates the various in real time. There is no dynamic computation, which is much simpler than dynamic java scripting languages. </p>
 
-<p><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#101;&#109;&#097;&#105;&#108;&#064;&#100;&#111;&#109;&#097;&#105;&#110;&#046;&#099;&#111;&#109;">&#101;&#109;&#097;&#105;&#108;&#064;&#100;&#111;&#109;&#097;&#105;&#110;&#046;&#099;&#111;&#109;</a></p>
+<p>The basic look and feel (and the really fast implementation) is adapted from Barry Clarks’ <a href="http://www.jekyllnow.com">Jekyll Now</a>. </p>
+
+<h3 id="commenting-turned-off-at-the-moment">Commenting (turned off at the moment)</h3>
+<p>The commenting system is the work of Phil Hawkworth and Alberto Aguilera, who created the <a href="http://pooleapp.com">Poole app</a>. </p>
+
+<h3 id="plugins">Plugins</h3>
+<p>The ability to use plugins is possible thanks to <a href="http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html">ixti’s</a> work. I had thought of creating another branch with the source, but did not know enough of Git to write a small Rake task. I translated he rake task into a gulp file, because that is what the commenting system use. Other options, such as <a href="http://charliepark.org/jekyll-with-plugins/">Charlie Park’s</a>, were to create two separate repos and emulate the functionality of the GitHub pages. </p>
+
+<p>I am in the process of adding other plugins which allow me to curate a bibliography on the blog directly. <a href="https://github.com/inukshuk/jekyll-scholar">Jekyll-Scholar</a>, by Sylvester Keil, takes care of the details of referencing and citing. </p>
+
+<h3 id="no-analytics">No Analytics</h3>
+<p>I have not implemented any web analytics, so absolutely nothing about you is recorded by me. GitHub will probably be analysing some small aspect of your traffic, but as far as I know, they do not use any cookies. </p>
+
+<p>It is interesting, though, to record some traffic details: the number of visits, the posts most read, etc.; this can help learn what and how to better present information. I might, at one point, implement a really basic analytics, but nothing cloud, and nothing either invasive or purely psychopathic: things like operating system used, browser, what gets clicked on, etc. I do not care about IPs or anything personal (and don’t understand why people would…). </p>
 
   </div>
 </article>

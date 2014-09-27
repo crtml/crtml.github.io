@@ -10,10 +10,13 @@ published: true
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt | truncatewords:160}}
+        {{ post.excerpt | truncatewords:160 }}&hellip; <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
       </div>
       
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+     
+
+      <div class="date" align="left">{{ post.date | date: "%B %e, %Y" }}&#151;{% capture time %}{{ post.content | reading_time }}{% endcapture %}{{ time }} min
+</div>
     </article>
   {% endfor %}
 </div>

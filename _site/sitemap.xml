@@ -3,7 +3,7 @@
   
   
   <url>
-    <loc>hhttps://curtomil.github.io/Sometimes-you-find-an-amazing-free-or-open-source</loc>
+    <loc>https://curtomil.github.io/blog/2014/08/21/Sometimes-you-find-an-amazing-free-or-open-source</loc>
     
     <lastmod>2014-08-21T00:00:00+02:00</lastmod>
     
@@ -11,15 +11,7 @@
   </url>
   
   <url>
-    <loc>hhttps://curtomil.github.io/easypost</loc>
-    
-    <lastmod>2014-08-11T00:00:00+02:00</lastmod>
-    
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>hhttps://curtomil.github.io/Hello-World</loc>
+    <loc>https://curtomil.github.io/blog/2014/03/03/Hello-World</loc>
     
     <lastmod>2014-03-03T00:00:00+01:00</lastmod>
     
@@ -28,29 +20,29 @@
   
   
   <url>
-    <loc>hhttps://curtomil.github.io/</loc>
-    <lastmod>2014-09-23T11:17:28+02:00</lastmod>
+    <loc>https://curtomil.github.io/</loc>
+    <lastmod>2014-09-27T20:40:51+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>hhttps://curtomil.github.io/research/</loc>
-    <lastmod>2014-09-23T11:17:28+02:00</lastmod>
+    <loc>https://curtomil.github.io/research/</loc>
+    <lastmod>2014-09-27T20:40:51+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>hhttps://curtomil.github.io/thanks/</loc>
-    <lastmod>2014-09-23T11:17:28+02:00</lastmod>
+    <loc>https://curtomil.github.io/thanks/</loc>
+    <lastmod>2014-09-27T20:40:51+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>hhttps://curtomil.github.io/about/</loc>
-    <lastmod>2014-09-23T11:17:28+02:00</lastmod>
+    <loc>https://curtomil.github.io/about/</loc>
+    <lastmod>2014-09-27T20:40:51+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
