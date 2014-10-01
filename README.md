@@ -1,4 +1,33 @@
-# Jekyll Now
+# What this is
+This is the source branch for my website so that I can use plugins. The master branch holds the built site. This is because, on GitHub, the master branch serves Jekyll. 
+
+# How this web is built
+This website uses a number of technologies, and was inspired in its looks and construction by adapting the work of a number of people. 
+
+## Base
+For the general possibility of holding a static blog, I have to thank the people behind the [Jekyll](http://www.jekyllrb.com) framework. Jekyll parses files and generates a static structure. The Jekyll server just relates the various in real time. There is no dynamic computation, which is much simpler than dynamic java scripting languages. 
+
+The basic look and feel (and the really fast implementation) is adapted from Barry Clarks' [Jekyll Now](http://www.jekyllnow.com). 
+
+## Commenting (turned off at the moment)
+The commenting system is the work of Phil Hawkworth and Alberto Aguilera, who created the [Poole app](http://pooleapp.com). 
+
+## Plugins
+The ability to use plugins is possible thanks to [ixti's](http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html) work. I had thought of creating another branch with the source, but did not know enough of Git to write a small Rake task. I translated he rake task into a gulp file, because that is what the commenting system use. Other options, such as [Charlie Park's](http://charliepark.org/jekyll-with-plugins/), were to create two separate repos and emulate the functionality of the GitHub pages. 
+
+I am in the process of adding other plugins which allow me to curate a bibliography on the blog directly. [Jekyll-Scholar](https://github.com/inukshuk/jekyll-scholar), by Sylvester Keil, takes care of the details of referencing and citing. 
+
+### No Analytics
+I have not implemented any web analytics, so absolutely nothing about you is recorded by me. GitHub will probably be analysing some small aspect of your traffic, but as far as I know, they do not use any cookies. 
+
+It is interesting, though, to record some traffic details: the number of visits, the posts most read, etc.; this can help learn what and how to better present information. I might, at one point, implement a really basic analytics, but nothing cloud, and nothing either invasive or purely psychopathic: things like operating system used, browser, what gets clicked on, etc. I do not care about IPs or anything personal (and don't understand why people would...). 
+
+# License
+I'm placing anything in /_posts, or any other intellectual content of mine contained within the published site and in the source or master branch under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). 
+
+That I know of, all the plugins used for this website are under the MIT license. My derivations will also be under the MIT license. 
+
+<!-- # Jekyll Now
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
 
@@ -115,3 +144,4 @@ You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-sta
 ## Get Hired as a Web Developer
 
 Check out my [free web development career newsletter](http://www.barryclark.co/newsletter) if you're interested in improving your chances of landing the job you want.
+ -->
