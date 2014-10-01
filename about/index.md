@@ -27,9 +27,6 @@ The basic look and feel (and the really fast implementation) is adapted from Bar
 ### Commenting (turned off at the moment)
 The commenting system is the work of Phil Hawkworth and Alberto Aguilera, who created the [Poole app](http://pooleapp.com). 
 
-#### On Another Note
-This is a h4
-
 ### Plugins
 The ability to use plugins is possible thanks to [ixti's](http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html) work. I had thought of creating another branch with the source, but did not know enough of Git to write a small Rake task. I translated he rake task into a gulp file, because that is what the commenting system use. Other options, such as [Charlie Park's](http://charliepark.org/jekyll-with-plugins/), were to create two separate repos and emulate the functionality of the GitHub pages. 
 
