@@ -66,6 +66,13 @@ table {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Andada-Regular';
+  src: url("css/fonts/Andada/Andada-Regular.eot");
+  src: url("css/fonts/Andada/Andada-Regular.eot?#iefix") format("embedded-opentype"), url("css/fonts/Andada/Andada-Regular.woff") format("woff"), url("css/fonts/Andada/Andada-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 html {
   font-size: 100%;
 }
@@ -134,7 +141,7 @@ a {
 }
 a:hover, a:active {
   color: #4183c4;
-  background-color: #85d7fe;
+  background-color: #bdbdbd;
   border-radius: 5px;
 }
 
@@ -309,10 +316,11 @@ nav a {
 .post blockquote {
   margin: 1.8em .8em;
   border-left: 2px solid #4e4f4f;
+  border-right: 2px solid #4e4f4f;
   padding: 0.1em 1em;
   color: #4e4f4f;
   font-size: 22px;
-  font-style: italic;
+  font-family: Andada, serif;
 }
 .post .comments {
   margin-top: 10px;

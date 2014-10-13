@@ -93,6 +93,27 @@ scholar:
 
   query: "@*"
 
+# Picture tag
+# picture:
+#   source: "images"
+#   output: "generated"
+#   markup: "picture"
+#   presets:
+#     default: #
+#     main: #
+#     gallery: #
+# gallery:
+#   ppi: [1, 1.5]
+#   attr:
+#     class: "gallery-pict"
+#     itemprop: "image"
+#   source_medium:
+#     media: "(min-width: 40em)"
+#     width: "600"
+#     height: "300"
+#   source_default: 
+#     width: "300"
+
 # Exclude these files from your production _site
 exclude:
     - Gemfile

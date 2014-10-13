@@ -24,6 +24,18 @@ font-weight: normal;
 font-style: normal;
 }
 
+@font-face {
+font-family: 'Andada-Regular';
+src: url('css/fonts/Andada/Andada-Regular.eot');
+src: url('css/fonts/Andada/Andada-Regular.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/Andada/Andada-Regular.woff') format('woff'),
+url('css/fonts/Andada/Andada-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+
+
 html {
   font-size: 100%;
 }
@@ -93,7 +105,7 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
-    background-color: $lightBlue;
+    background-color: $lightGray;
     border-radius: 5px;
   }
 }
@@ -280,10 +292,13 @@ nav {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
+    border-right: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
-    font-style: italic;
+    font-family: $andada;
+    // font-style: italic;
+    // font-family: $helveticaNeue;
   }
 
   .comments {

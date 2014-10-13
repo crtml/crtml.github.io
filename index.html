@@ -15,8 +15,16 @@ published: true
       
      
 
-      <div class="date" align="left">{{ post.date | date: "%B %e, %Y" }}&#151;{% capture time %}{{ post.content | reading_time }}{% endcapture %}{{ time }} min
-</div>
+      <div class="date" align="left">{{ post.date | date: "%B %e, %Y" }}&#151;{% capture time %}{{ post.content | reading_time }}{% endcapture %}{{ time }} min</div>
     </article>
   {% endfor %}
 </div>
+
+
+<h1>References</h1>
+
+{% bibliography %}
+
+<!-- {% if post.featured-image %}
+        <center><a href="{{ post.url }}"><img src="{{ post.featured-image }}" height="400" width="250"/></a></center>
+        {% endif %} -->
