@@ -61,17 +61,53 @@ table {
 /**************/
 @font-face {
   font-family: 'FiraSans';
-  src: url("css/fonts/FiraSans/FiraSans-Regular.eot");
-  src: url("css/fonts/FiraSans/FiraSans-Regular.eot?#iefix") format("embedded-opentype"), url("css/fonts/FiraSans/FiraSans-Regular.woff") format("woff"), url("css/fonts/FiraSans/FiraSans-Regular.ttf") format("truetype");
+  src: url("fonts/fira-sans/FiraSans-Regular.eot");
+  src: url("fonts/fira-sans/FiraSans-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/fira-sans/FiraSans-Regular.woff") format("woff"), url("fonts/fira-sans/FiraSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Andada-Regular';
-  src: url("css/fonts/Andada/Andada-Regular.eot");
-  src: url("css/fonts/Andada/Andada-Regular.eot?#iefix") format("embedded-opentype"), url("css/fonts/Andada/Andada-Regular.woff") format("woff"), url("css/fonts/Andada/Andada-Regular.ttf") format("truetype");
+  font-family: 'FiraSans';
+  src: url("fonts/fira-sans/FiraSans-Italic.eot");
+  src: url("fonts/fira-sans/FiraSans-Italic.eot?#iefix") format("embedded-opentype"), url("fonts/fira-sans/FiraSans-Italic.woff") format("woff"), url("fonts/fira-sans/FiraSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'FiraSans';
+  src: url("fonts/fira-sans/FiraSans-Bold.eot");
+  src: url("fonts/fira-sans/FiraSans-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/fira-sans/FiraSans-Bold.woff") format("woff"), url("fonts/fira-sans/FiraSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Andada';
+  src: url("fonts/andada/andada-regular-webfont.eot");
+  src: url("fonts/andada/andada-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/andada/andada-regular-webfont.woff") format("woff"), url("fonts/andada/andada-regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+  font-family: 'Andada';
+  src: url("fonts/andada/andada-italic-webfont.eot");
+  src: url("fonts/andada/andada-italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/andada/andada-italic-webfont.woff") format("woff"), url("fonts/andada/andada-italic-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Andada';
+  src: url("fonts/andada/andada-bold-webfont.eot");
+  src: url("fonts/andada/andada-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/andada/andada-bold-webfont.woff") format("woff"), url("fonts/andada/andada-bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Andada';
+  src: url("fonts/andada/andadasc-regular-webfont.eot");
+  src: url("fonts/andada/andadasc-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/andada/andadasc-regular-webfont.woff") format("woff"), url("fonts/andada/andadasc-regular-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-variant: small-caps;
 }
 html {
   font-size: 100%;
@@ -79,7 +115,7 @@ html {
 
 body {
   background: #ffffff;
-  font: 18px/1.7 FiraSans, sans-serif;
+  font: 18px/1.7 FiraSans, Arial, sans-serif;
   color: #4e4f4f;
   hyphens: auto;
 }
@@ -92,7 +128,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: FiraSans, Arial, sans-serif;
   color: #2c2c2c;
   font-weight: 300;
   font-variant: small-caps;
@@ -107,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 32px;
 }
 h1 a {
@@ -115,11 +151,11 @@ h1 a {
 }
 
 h2 {
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 28px;
 }
 
 h3 {
-  font-weight: 200;
   font-size: 20px;
 }
 
@@ -140,8 +176,8 @@ a {
   cursor: pointer;
 }
 a:hover, a:active {
-  color: #4183c4;
-  background-color: #bdbdbd;
+  color: #4e4f4f;
+  background-color: #85d7fe;
   border-radius: 5px;
 }
 
@@ -168,6 +204,7 @@ ul ul, ol ul {
 
 em, i {
   font-style: italic;
+  font-weight: normal;
 }
 
 strong, b {
@@ -315,11 +352,11 @@ nav a {
 
 .post blockquote {
   margin: 1.8em .8em;
-  border-left: 2px solid #4e4f4f;
-  border-right: 2px solid #4e4f4f;
+  border-left: 2px solid #bdbdbd;
+  border-right: 2px solid #bdbdbd;
   padding: 0.1em 1em;
   color: #4e4f4f;
-  font-size: 22px;
+  font-size: 20px;
   font-family: Andada, serif;
 }
 .post .comments {

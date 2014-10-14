@@ -16,22 +16,93 @@
 // Fonts
 @font-face {
 font-family: 'FiraSans';
-src: url('css/fonts/FiraSans/FiraSans-Regular.eot');
-src: url('css/fonts/FiraSans/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
-url('css/fonts/FiraSans/FiraSans-Regular.woff') format('woff'),
-url('css/fonts/FiraSans/FiraSans-Regular.ttf') format('truetype');
+src: url('fonts/fira-sans/FiraSans-Regular.eot');
+src: url('fonts/fira-sans/FiraSans-Regular.eot?#iefix') format('embedded-opentype'),
+url('fonts/fira-sans/FiraSans-Regular.woff') format('woff'),
+url('fonts/fira-sans/FiraSans-Regular.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
 
 @font-face {
-font-family: 'Andada-Regular';
-src: url('css/fonts/Andada/Andada-Regular.eot');
-src: url('css/fonts/Andada/Andada-Regular.eot?#iefix') format('embedded-opentype'),
-url('css/fonts/Andada/Andada-Regular.woff') format('woff'),
-url('css/fonts/Andada/Andada-Regular.ttf') format('truetype');
+font-family: 'FiraSans';
+src: url('fonts/fira-sans/FiraSans-Italic.eot');
+src: url('fonts/fira-sans/FiraSans-Italic.eot?#iefix') format('embedded-opentype'),
+url('fonts/fira-sans/FiraSans-Italic.woff') format('woff'),
+url('fonts/fira-sans/FiraSans-Italic.ttf') format('truetype');
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'FiraSans';
+src: url('fonts/fira-sans/FiraSans-Bold.eot');
+src: url('fonts/fira-sans/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+url('fonts/fira-sans/FiraSans-Bold.woff') format('woff'),
+url('fonts/fira-sans/FiraSans-Bold.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+// @font-face {
+// font-family: 'FiraSans';
+// src: url('fonts/fira-sans/FiraSans-Light.eot');
+// src: url('fonts/fira-sans/FiraSans-Light.eot?#iefix') format('embedded-opentype'),
+// url('fonts/fira-sans/FiraSans-Light.woff') format('woff'),
+// url('fonts/fira-sans/FiraSans-Light.ttf') format('truetype');
+// font-weight: lighter;
+// font-style: normal;
+// }
+
+// @font-face {
+// font-family: 'FiraSans';
+// src: url('fonts/fira-sans/FiraSans-LightItalic.eot');
+// src: url('fonts/fira-sans/FiraSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+// url('fonts/fira-sans/FiraSans-LightItalic.woff') format('woff'),
+// url('fonts/fira-sans/FiraSans-LightItalic.ttf') format('truetype');
+// font-weight: lighter;
+// font-style: italic;
+// }
+
+@font-face {
+font-family: 'Andada';
+src: url('fonts/andada/andada-regular-webfont.eot');
+src: url('fonts/andada/andada-regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('fonts/andada/andada-regular-webfont.woff') format('woff'),
+url('fonts/andada/andada-regular-webfont.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
+}
+
+@font-face {
+font-family: 'Andada';
+src: url('fonts/andada/andada-italic-webfont.eot');
+src: url('fonts/andada/andada-italic-webfont.eot?#iefix') format('embedded-opentype'),
+url('fonts/andada/andada-italic-webfont.woff') format('woff'),
+url('fonts/andada/andada-italic-webfont.ttf') format('truetype');
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'Andada';
+src: url('fonts/andada/andada-bold-webfont.eot');
+src: url('fonts/andada/andada-bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('fonts/andada/andada-bold-webfont.woff') format('woff'),
+url('fonts/andada/andada-bold-webfont.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Andada';
+src: url('fonts/andada/andadasc-regular-webfont.eot');
+src: url('fonts/andada/andadasc-regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('fonts/andada/andadasc-regular-webfont.woff') format('woff'),
+url('fonts/andada/andadasc-regular-webfont.ttf') format('truetype');
+font-weight: bold;
+font-style: normal;
+font-variant: small-caps;
 }
 
 
@@ -56,7 +127,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $fira;
   color: $darkerGray;
   font-weight: 300;
   font-variant: small-caps;
@@ -71,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 }
   
 h1 {  
-  font-weight: 300;
+  font-weight: 400;
   font-size: 32px;
   a {
     color: $blue;
@@ -79,12 +150,11 @@ h1 {
 }
 
 h2 {  
-  // font-weight: 100;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 28px;
 }
 
 h3 {  
-  font-weight: 200;
   font-size: 20px;
 }
 
@@ -104,8 +174,8 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
-    background-color: $lightGray;
+    color: $gray;
+    background-color: $lightBlue;
     border-radius: 5px;
   }
 }
@@ -133,6 +203,7 @@ ul ul, ol ul {
 
 em, i {
   font-style: italic;
+  font-weight: normal;
 }
 
 strong, b {
@@ -291,11 +362,11 @@ nav {
 .post { 
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    border-right: 2px solid $gray;
+    border-left: 2px solid $lightGray;
+    border-right: 2px solid $lightGray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 20px;
     font-family: $andada;
     // font-style: italic;
     // font-family: $helveticaNeue;

@@ -8,15 +8,14 @@ This is my home website. It contains information about my work and the things I 
 
 * Research in open source and social informatics (software studies, information systems, media)
 * The web
-* Games in Linux
 * The occasional dash of programming I can manage
 
-## Who I am
+## Who I Am
 I am a PhD candidate at the LSE, researching requirements in open source software. I particularly like the multi-disciplinarian approach to study technology that the LSE allows for. In some ways, I'm looking at the dark side of software: the complicated, unclear aspects, and the social consequences of technology use. 
 
 You can find out more in the [research](/research) section. 
 
-## How this web is built
+## How This Web is Built
 This website uses a number of technologies, and was inspired in its looks and construction by adapting the work of a number of people. 
 
 ### Base
@@ -24,7 +23,7 @@ For the general possibility of holding a static blog, I have to thank the people
 
 The basic look and feel (and the really fast implementation) is adapted from Barry Clarks' [Jekyll Now](http://www.jekyllnow.com). 
 
-### Commenting (turned off at the moment)
+### Commenting (Turned Off At The Moment)
 The commenting system is the work of Phil Hawkworth and Alberto Aguilera, who created the [Poole app](http://pooleapp.com). 
 
 ### Plugins

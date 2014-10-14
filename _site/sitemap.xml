@@ -3,6 +3,14 @@
   
   
   <url>
+    <loc>https://curtomil.github.io/blog/2014/09/30/static-comments-poole</loc>
+    
+    <lastmod>2014-09-30T00:00:00+02:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://curtomil.github.io/blog/2014/08/21/Sometimes-you-find-an-amazing-free-or-open-source</loc>
     
     <lastmod>2014-08-21T00:00:00+02:00</lastmod>
@@ -21,32 +29,44 @@
   
   <url>
     <loc>https://curtomil.github.io/</loc>
-    <lastmod>2014-10-13T20:18:27+02:00</lastmod>
+    <lastmod>2014-10-14T18:04:27+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>https://curtomil.github.io/research/</loc>
-    <lastmod>2014-10-13T20:18:27+02:00</lastmod>
+    <lastmod>2014-10-14T18:04:27+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://curtomil.github.io/thanks/</loc>
-    <lastmod>2014-10-13T20:18:27+02:00</lastmod>
+    <lastmod>2014-10-14T18:04:27+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://curtomil.github.io/about/</loc>
-    <lastmod>2014-10-13T20:18:27+02:00</lastmod>
+    <lastmod>2014-10-14T18:04:27+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   
+  
+  <url>
+    <loc>https://curtomil.github.io/css/fonts/andada/andada-regular-demo.html</loc>
+    <lastmod>2014-10-14T09:43:08Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://curtomil.github.io/css/fonts/andada/andadasc-bold-demo.html</loc>
+    <lastmod>2014-10-14T09:43:08Z</lastmod>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
