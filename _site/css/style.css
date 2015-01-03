@@ -61,15 +61,15 @@ table {
 /**************/
 @font-face {
   font-family: 'FiraSans';
-  src: url("fonts/fira-sans/FiraSans-Regular.eot");
-  src: url("fonts/fira-sans/FiraSans-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/fira-sans/FiraSans-Regular.woff") format("woff"), url("fonts/fira-sans/FiraSans-Regular.ttf") format("truetype");
+  src: url("fonts/fira-sans/FiraSans-Light.eot");
+  src: url("fonts/fira-sans/FiraSans-Light.eot?#iefix") format("embedded-opentype"), url("fonts/fira-sans/FiraSans-Light.woff") format("woff"), url("fonts/fira-sans/FiraSans-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'FiraSans';
-  src: url("fonts/fira-sans/FiraSans-Italic.eot");
-  src: url("fonts/fira-sans/FiraSans-Italic.eot?#iefix") format("embedded-opentype"), url("fonts/fira-sans/FiraSans-Italic.woff") format("woff"), url("fonts/fira-sans/FiraSans-Italic.ttf") format("truetype");
+  src: url("fonts/fira-sans/FiraSans-LightItalic.eot");
+  src: url("fonts/fira-sans/FiraSans-LightItalic.eot?#iefix") format("embedded-opentype"), url("fonts/fira-sans/FiraSans-LightItalic.woff") format("woff"), url("fonts/fira-sans/FiraSans-LightItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
@@ -115,7 +115,7 @@ html {
 
 body {
   background: #ffffff;
-  font: 18px/1.7 FiraSans, Arial, sans-serif;
+  font: 16px/1.7 FiraSans, Arial, sans-serif;
   color: #4e4f4f;
   hyphens: auto;
 }
