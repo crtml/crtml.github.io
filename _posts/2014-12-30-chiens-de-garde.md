@@ -54,7 +54,7 @@ Some interesting quotes (my translation):
 ## References
 {% bibliography --cited %}
 
-[^book]: The book I have read is a 2012 edition with a number of useful editorial comments. These are necessary to a few details of Nizan's arguments because they reference philosophers and people from his time whose ideas have not endured.
+[^book]: The book I have read is a 2012 edition with a number of useful editorial comments. These are necessary to follow some of the details of Nizan's arguments because they reference and contextualise philosophers and people from his time.
 
 <!-- [^wonder]: I wonder what he would have made of the current trend of widespread rising educational fees _and_ a global increase of university graduates (at his time, according to the preface by Serge Halimi, the number of students was dropping alarmingly: 81000 in 1930 and only 76000 between 1935 and 1939 [[^students]]).
 

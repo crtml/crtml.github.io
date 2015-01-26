@@ -14,34 +14,47 @@
 /**************/
 
 // Fonts
-@font-face {
-font-family: 'FiraSans';
-src: url('fonts/fira-sans/FiraSans-Light.eot');
-src: url('fonts/fira-sans/FiraSans-Light.eot?#iefix') format('embedded-opentype'),
-url('fonts/fira-sans/FiraSans-Light.woff') format('woff'),
-url('fonts/fira-sans/FiraSans-Light.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
-}
+// @font-face {
+// font-family: 'FiraSans';
+// src: url('fonts/fira-sans/FiraSans-Light.eot');
+// src: url('fonts/fira-sans/FiraSans-Light.eot?#iefix') format('embedded-opentype'),
+// url('fonts/fira-sans/FiraSans-Light.woff') format('woff'),
+// url('fonts/fira-sans/FiraSans-Light.ttf') format('truetype');
+// font-weight: normal;
+// font-style: normal;
+// }
+
+// @font-face {
+// font-family: 'FiraSans';
+// src: url('fonts/fira-sans/FiraSans-LightItalic.eot');
+// src: url('fonts/fira-sans/FiraSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+// url('fonts/fira-sans/FiraSans-LightItalic.woff') format('woff'),
+// url('fonts/fira-sans/FiraSans-LightItalic.ttf') format('truetype');
+// font-weight: normal;
+// font-style: italic;
+// }
+
+// @font-face {
+// font-family: 'FiraSans';
+// src: url('fonts/fira-sans/FiraSans-Bold.eot');
+// src: url('fonts/fira-sans/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+// url('fonts/fira-sans/FiraSans-Bold.woff') format('woff'),
+// url('fonts/fira-sans/FiraSans-Bold.ttf') format('truetype');
+// font-weight: bold;
+// font-style: normal;
+// }
 
 @font-face {
-font-family: 'FiraSans';
-src: url('fonts/fira-sans/FiraSans-LightItalic.eot');
-src: url('fonts/fira-sans/FiraSans-LightItalic.eot?#iefix') format('embedded-opentype'),
-url('fonts/fira-sans/FiraSans-LightItalic.woff') format('woff'),
-url('fonts/fira-sans/FiraSans-LightItalic.ttf') format('truetype');
-font-weight: normal;
-font-style: italic;
-}
-
-@font-face {
-font-family: 'FiraSans';
-src: url('fonts/fira-sans/FiraSans-Bold.eot');
-src: url('fonts/fira-sans/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
-url('fonts/fira-sans/FiraSans-Bold.woff') format('woff'),
-url('fonts/fira-sans/FiraSans-Bold.ttf') format('truetype');
+font-family: 'League Spartan';
+src: url('fonts/league-spartan/leaguespartan-bold.eot');
+src: url('fonts/league-spartan/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+     url('fonts/league-spartan/leaguespartan-bold.woff2') format('woff2'),
+     url('fonts/league-spartan/leaguespartan-bold.woff') format('woff'),
+     url('fonts/league-spartan/leaguespartan-bold.ttf') format('truetype'),
+     url('fonts/league-spartan/leaguespartan-bold.svg#league_spartanbold') format('svg');
 font-weight: bold;
 font-style: normal;
+
 }
 
 // @font-face {
@@ -114,7 +127,7 @@ html {
 body {
 	background: $white;
   // font: 18px/1.4 $helveticaNeue;
-  font: 16px/1.7 $fira;
+  font: 17px/1.7 $andada;
   color: $gray;
   hyphens: auto;
 }
@@ -127,14 +140,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $fira;
+  font-family: $spartan;
   color: $darkerGray;
-  font-weight: 300;
-  font-variant: small-caps;
+  font-weight: 400;
+  // font-variant: small-caps;
   
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
+  text-transform: uppercase;
 
   @include mobile {
     line-height: 1.4;
@@ -150,18 +164,24 @@ h1 {
 }
 
 h2 {  
+  text-transform: lowercase;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 30px;
 }
 
-h3 {  
-  font-size: 20px;
+h3 {
+  text-transform: lowercase;
+  font-size: 22px;
 }
 
 h4 {  
   font-size: 18px;
-  color: $gray;
+  // color: $gray;
   font-variant: normal;
+  font-style: italic;
+  text-transform: lowercase;
+
+
 }
 
 p {
