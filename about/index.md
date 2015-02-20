@@ -18,15 +18,15 @@ You can find out more in the [research](/research) section.
 ## How This Web is Built
 This website uses a number of technologies, and was inspired in its looks and construction by adapting the work of a number of people. 
 
-### Typography
-I have been giving this a lot of thought. Originally, I went for Fira---a _sans_ font commissioned by Mozilla for its OS for the main text---but found it too bold and striking, then went for its lighter version which I found too light. The light version did not work well with the titles at at all, originally from Fira as well. It seemed to leave too much blank between the letters, and did not stand out as much as I wanted them too. 
-
-I finally settled for the _Spartan_ font from the [League of Moveable Type](https://www.theleagueofmoveabletype.com/league-spartan), and _Andada_ from [Huerta Tipografica](http://www.huertatipografica.com/). Because this site is intended for very low amounts of traffic, I opted for open licenses (both fonts are under the [SIL Open Font License](https://duckduckgo.com/l/?kh=-1&uddg=http%3A%2F%2Fscripts.sil.org%2FOFL)).
-
 ### Base
 For the general possibility of holding a static blog, I have to thank the people behind the [Jekyll](http://www.jekyllrb.com) framework. Jekyll parses files and generates a static structure. The Jekyll server just relates the various in real time. There is no dynamic computation, which is much simpler than dynamic java scripting languages. 
 
 The basic look and feel (and the really fast implementation) is adapted from Barry Clarks' [Jekyll Now](http://www.jekyllnow.com). 
+
+### Typography
+I have been giving this a lot of thought. Originally, I went for Fira---a _sans serif_ font commissioned by Mozilla for its OS---but I found it too bold and striking. I then went for its lighter version which I found too light. The light version did not work well, especially with the titles; there was not enough difference between the weight of the title and the text. It left too much blank between the letters and did not stand out as much as I wanted them too. 
+
+I finally settled for the _Spartan_ font from the [League of Moveable Type](https://www.theleagueofmoveabletype.com/league-spartan), and _Andada_ from [Huerta Tipografica](http://www.huertatipografica.com/). _Spartan_ gives big, bold letters, while _Andada_ manages to be a classic _serif_ while providing more modern, rounder shapes. Because this site is intended for very low amounts of traffic, I opted for open licenses (both fonts are under the [SIL Open Font License](https://duckduckgo.com/l/?kh=-1&uddg=http%3A%2F%2Fscripts.sil.org%2FOFL)).
 
 ### Commenting (Turned Off At The Moment)
 The commenting system is the work of Phil Hawkworth and Alberto Aguilera, who created the [Poole app](http://pooleapp.com). 

@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>curtomil (crtml)</title>
-    <description>Socia(l / ble) Scientist</description>
+    <title>curtomil</title>
+    <description>socia(l / ble) scientist</description>
     <link>https://curtomil.github.io</link>
     <atom:link href="https://curtomil.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>The Internet of Things will be an Internet of Obsolete Junk</title>
+        <description>&lt;p&gt;Ah, finally! An article that doesn’t rehash all the beautiful promises of the internet of things (usually meaning: of everything). The ecological consequences of ‘internetification’ will be painful.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 Feb 2015 00:00:00 +0100</pubDate>
+        <link>https://curtomil.github.io/blog/2015/02/19/The-internet-of-things-will-be-an-internet-of-obsolete-junk</link>
+        <guid isPermaLink="true">https://curtomil.github.io/blog/2015/02/19/The-internet-of-things-will-be-an-internet-of-obsolete-junk</guid>
+      </item>
+    
+      <item>
         <title>Les Chiens de Garde (Watchdogs)</title>
-        <description>&lt;p&gt;&lt;em&gt;Les Chiens de Garde&lt;/em&gt; by &lt;a href=&quot;https://en.wikipedia.org/wiki/Paul_Nizan&quot;&gt;Paul Nizan&lt;/a&gt;—Watchdogs in English—tells an odd tale: that we are subjects to watchdogs &lt;a href=&quot;#Nizan:2012ta&quot;&gt;(Nizan, 2012)&lt;/a&gt;. It would seem ludicrous in today’s democratic society to wonder about whether we are anybody’s ‘subjects’. The books that usually treat this are either historical accounts, or dystopian science-fiction (&lt;em&gt;Animal Farm&lt;/em&gt;, &lt;em&gt;Brave New World&lt;/em&gt;, &lt;em&gt;1984&lt;/em&gt;). Few of today’s popular cultural products, outside of philosophy, treat of a &lt;em&gt;present&lt;/em&gt;, active subjectification &lt;a href=&quot;#Guattari:1995te&quot;&gt;(Guattari, 1995)&lt;/a&gt;; the only that comes to mind right away is the movie &lt;em&gt;District 9&lt;/em&gt; where we see a normal guy acting on the orders of his superiors that he desperately tries to accommodate. After all, he wants to be well-liked. This is what &lt;em&gt;Les Chiens de Garde&lt;/em&gt; is about: an analysis of a caste completely unconcerned with the living conditions of its inferiors (or so are they deemed). Worse, these masses of inferiors must be channelled to productive uses (the superiors’ productive uses, to be precise). This is my brief review of the book. &lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;Les Chiens de Garde&lt;/em&gt;—Watchdogs in English—by &lt;a href=&quot;https://en.wikipedia.org/wiki/Paul_Nizan&quot;&gt;Paul Nizan&lt;/a&gt; is an odd tale for contemporary times. The bottom-line (TL;DR) is that we are not only subject to scrutiny by defenders of morality, but are also made to think like they would want us to &lt;a href=&quot;#Nizan:2012ta&quot;&gt;(Nizan, 2012)&lt;/a&gt;. It might seem ludicrous in today’s democratic societies to wonder whether we are anybody’s ‘subjects’. After all and despite rising costs in academia, the number of people with education has never been this high. The elites are not the only ones capable of reaching the best degrees. Yet, there is a concentration of media around a few wealthy individuals that did not exist for much of the past century. &lt;/p&gt;
+
+&lt;p&gt;The books that usually treat such a monopoly of information are either historical accounts, or dystopian science-fiction (&lt;em&gt;Animal Farm&lt;/em&gt;, &lt;em&gt;Brave New World&lt;/em&gt;, &lt;em&gt;1984&lt;/em&gt;). Few of today’s popular cultural products, outside of philosophy, treat of a &lt;em&gt;present&lt;/em&gt;, active subjectification &lt;a href=&quot;#Guattari:1995te&quot;&gt;(Guattari, 1995)&lt;/a&gt;; the only that comes to mind right away is the movie &lt;em&gt;District 9&lt;/em&gt; where we see a normal guy acting on the orders of his superiors that he desperately tries to accommodate. After all, he wants to be well-liked. This is what &lt;em&gt;Les Chiens de Garde&lt;/em&gt; is about: an analysis of a caste completely unconcerned with the living conditions of its inferiors (or so are they deemed). Worse, these masses of inferiors must be channelled to productive uses (the superiors’ productive uses, to be precise). This is my brief review of the book. &lt;/p&gt;
 
 &lt;h2 id=&quot;re-actualisation&quot;&gt;Re-actualisation&lt;/h2&gt;
 

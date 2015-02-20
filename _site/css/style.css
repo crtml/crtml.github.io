@@ -120,7 +120,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-  text-transform: uppercase;
 }
 @media screen and (max-width: 640px) {
   h1, h2, h3, h4, h5, h6 {
@@ -131,6 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-weight: 400;
   font-size: 32px;
+  font-variant: small-caps;
 }
 h1 a {
   color: #4183c4;
@@ -290,6 +290,7 @@ img {
   margin: -5px 0 0 0;
   color: #4e4f4f;
   font-size: 16px;
+  font-family: League Spartan, sans-serif;
 }
 @media screen and (max-width: 640px) {
   .site-description {
@@ -301,7 +302,7 @@ nav {
   float: right;
   margin-top: 23px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 @media screen and (max-width: 640px) {
   nav {
@@ -345,15 +346,15 @@ nav a {
   border-right: 2px solid #bdbdbd;
   padding: 0.1em 1em;
   color: #4e4f4f;
-  font-size: 20px;
-  font-family: Andada, serif;
+  font-size: 18px;
+  font-family: League Spartan, sans-serif;
 }
 .post .comments {
   margin-top: 10px;
 }
 .post .read-more {
-  font-variant: small-caps;
   font-size: 20px;
+  font-family: League Spartan, sans-serif;
 }
 
 .wrapper-footer {

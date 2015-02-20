@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 
   @include mobile {
     line-height: 1.4;
@@ -160,7 +160,9 @@ h1 {
   font-size: 32px;
   a {
     color: $blue;
-  }
+  }  // 
+  font-variant: small-caps;
+
 }
 
 h2 {  
@@ -326,7 +328,9 @@ img {
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-size: 16px;  
+  font-family: $spartan; 
+
   
   @include mobile {
     margin: 3px 0;
@@ -337,7 +341,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue; 
-  font-size: 18px;
+  font-size: 20px;
   
   @include mobile {
     float: none;
@@ -386,8 +390,8 @@ nav {
     border-right: 2px solid $lightGray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 20px;
-    font-family: $andada;
+    font-size: 18px;
+    font-family: $spartan;
     // font-style: italic;
     // font-family: $helveticaNeue;
   }
@@ -398,8 +402,9 @@ nav {
 
   .read-more {
     // text-transform: uppercase;
-    font-variant: small-caps;
+    // font-variant: small-caps;
     font-size: 20px;
+    font-family: $spartan;
   }
 }
 
