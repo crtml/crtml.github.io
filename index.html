@@ -16,7 +16,7 @@ published: true
       <div class="date" align="left">{{ post.date | date: "%B %e, %Y" }}&#151;{% capture time %}{{ post.content | reading_time }}{% endcapture %}{{ time }} min</div>
 
       {% elsif post.blob != null %}
-      <h1><a href="{{ post.blob }}">{{ post.title }}&#8594;</a></h1>
+      <h1><a href="{{ post.blob }}">{{ post.title }}</a></h1>
       {{ post.content }}
 
       <p>&hellip;<a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> read more</a></p> 

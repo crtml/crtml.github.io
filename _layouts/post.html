@@ -10,7 +10,7 @@ layout: default
 <div class="date" align="center">{{ post.date | date: "%B %e, %Y" }}&#151;{% capture time %}{{ content | reading_time }}{% endcapture %}{{ time }} min&#151;</div>
 
       {% elsif page.blob != null %}
-      <h1><a href="{{ page.blob }}">{{ page.title }}&#8594;</a></h1>
+      <h1><a href="{{ page.blob }}">{{ page.title }}</a></h1>
       <div class="date" align="center">{{ post.date | date: "%B %e, %Y" }}&#151;{% capture time %}{{ content | reading_time }}{% endcapture %}{{ time }} min&#151;</div>
 
       {% endif %}
