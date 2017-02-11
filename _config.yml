@@ -1,0 +1,42 @@
+---
+name: Daniel Curto-Millet
+description: curtomil
+title: Daniel Curto-Millet
+avatar: "/images/me_large.jpg"
+source: "."
+destination: "./_site"
+exclude:
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- js-yaml
+port: 4000
+footer-links:
+  dribbble: 
+  email: 
+  facebook: 
+  flickr: 
+  github: curtomil
+  instagram: 
+  linkedin: 
+  pinterest: 
+  rss: blog
+  twitter: curtomil
+  stackoverflow: 
+disqus: 
+google_analytics: 
+url: https://curtomil.github.io
+baseurl: ''
+markdown: kramdown
+highlighter: pygments
+permalink: "/blog/:year/:month/:day/:title"
+version: v1.0.0
+sass:
+  sass_dir: css/_scss
+  style: ":expanded"
+gems:
+- jemoji
+- jekyll-sitemap
+- "./_plugins/reading_time"
+- jekyll-admin

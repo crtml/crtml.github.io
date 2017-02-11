@@ -1,0 +1,35 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #4183C4; 
+$lightBlue: #85d7fe;
+
+// Grays
+$black: #000;
+$gray: #4e4f4f;
+$lightGray: #bdbdbd;
+$darkGray: #9e97ee;
+$darkerGray: #2c2c2c;
+$white: white;
+
+// Font stacks
+$fira: FiraSans, Arial, sans-serif;
+$andada: Andada, serif;
+// $goudy: Goudy, serif;
+$spartan: League Spartan, sans-serif;
+
+$heros: tex-gyre-heros, sans-serif;
+$heros-bold: tex-gyre-heros-bl, sans-serif;
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
