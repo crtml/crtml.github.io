@@ -6,8 +6,6 @@ avatar: "/images/me_large.jpg"
 source: "."
 destination: "./_site"
 exclude:
-- Gemfile
-- Gemfile.lock
 - LICENSE
 - README.md
 - js-yaml
@@ -36,9 +34,9 @@ sass:
   sass_dir: css/_scss
   style: ":expanded"
 plugins:
-- jemoji
-- jekyll-sitemap
-- "./_plugins/reading_time"
-- jekyll-admin
-- jekyll-twitter-plugin
-- nokogiri
+# - jemoji
+# - jekyll-sitemap
+# # - "./_plugins/reading_time"
+# - jekyll-admin
+# - jekyll-twitter-plugin
+# - nokogiri
