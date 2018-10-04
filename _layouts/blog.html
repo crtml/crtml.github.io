@@ -1,18 +1,21 @@
 ---
 layout: default
-published: true
+title: Notes
 ---
- 
+
+<div id="main" role="main" class="container">
+  {{ content }}
+</div>
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">    
-      
+    <article class="post">
+
       {% if post.blob == null %}
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt | truncatewords:160 }}<p>&hellip;<a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> read more</a></p> 
+        {{ post.excerpt | truncatewords:160 }}<p>&hellip;<a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> read more</a></p>
       </div>
       <div class="date" align="left">{{ post.date | date: "%B %e, %Y" }}&#151;{% capture time %}{{ post.content | reading_time }}{% endcapture %}{{ time }} min</div>
 
@@ -20,12 +23,17 @@ published: true
       <h1><a href="{{ post.blob }}">{{ post.title }}</a></h1>
       {{ post.content }}
 
-      <p>&hellip;<a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> read more</a></p> 
+      <p>&hellip;<a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> read more</a></p>
 
       <div class="date" align="left">{{ post.date | date: "%B %e, %Y" }}</div>
       {% endif %}
 
-      
+
     </article>
   {% endfor %}
 </div>
+
+
+{% if post.featured-image %}
+        <center><a href="{{ post.url }}"><img src="{{ post.featured-image }}" height="400" width="250"/></a></center>
+        {% endif %}

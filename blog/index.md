@@ -1,4 +1,4 @@
 ---
-layout: blog
-title: Blog
+layout: thoughts
+title: Thoughts
 ---
