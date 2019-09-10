@@ -104,10 +104,31 @@ body {
     padding: 0 20px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .container {
     margin: 0 left;
-    max-width: 400px;
+    max-width: 100px;
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .container {
+    margin: 0 left;
+    max-width: 321px;
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .container {
+    margin: 0 left;
+    max-width: 769px;
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .container {
+    margin: 0 left;
+    max-width: 500px;
     padding: 0 20px;
   }
 }
