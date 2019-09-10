@@ -1,8 +1,8 @@
 ---
 name: Daniel Curto-Millet
 description: curtomil
-title: Daniel Curto-Millet
-avatar: "/images/me_large.jpg"
+title: My little (no)mad land
+# avatar: "/assets/me_new.jpg"
 source: "."
 destination: "./_site"
 exclude:

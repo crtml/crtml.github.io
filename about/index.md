@@ -1,9 +1,18 @@
 ---
 layout: page
-title: Contact
+title: About
 ---
 
-You can contact me through the following:
+## Me
+
+Oh no, what to say, what not to say? I may say something about me here, but I’ll avoid this part for now. I may put pictures of what I do and what I like one day, but I don’t think I’ll ramble on about myself here. If you want to know me, meet me.
+
+Want to know about what I do? Have a look at my [research]() profile.
+
+
+## Contact
+
+If you want to contact me, you can use my institutional email. Otherwise, you can get through to me sending the following form:
 
 <form action="https://formspree.io/curtomil-blog@curtomil.net"
       method="POST">

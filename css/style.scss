@@ -86,7 +86,7 @@ url('fonts/andada/andada-regular-webfont.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
-
+/* 
 @font-face {
 font-family: 'Andada';
 src: url('fonts/andada/andada-italic-webfont.eot');
@@ -105,9 +105,9 @@ url('fonts/andada/andada-bold-webfont.woff') format('woff'),
 url('fonts/andada/andada-bold-webfont.ttf') format('truetype');
 font-weight: bold;
 font-style: normal;
-}
+} */
 
-@font-face {
+/* @font-face {
 font-family: 'Andada';
 src: url('fonts/andada/andadasc-regular-webfont.eot');
 src: url('fonts/andada/andadasc-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -116,7 +116,7 @@ url('fonts/andada/andadasc-regular-webfont.ttf') format('truetype');
 font-weight: bold;
 font-style: normal;
 font-variant: small-caps;
-}
+} */
 
 
 
@@ -125,17 +125,17 @@ html {
 }
 
 body {
-	background: $white;
+	background: $background;
   // font: 18px/1.4 $helveticaNeue;
-  font: 17px/1.7 $andada;
+  font: 19px/1.7 $andada;
   color: $gray;
   hyphens: auto;
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 720px;
-  padding: 0 10px;
+  margin: 0 left;
+  max-width: 1400px;
+  padding: 0 250px;
   width: 100%;
 }
 
@@ -232,13 +232,38 @@ strong, b {
   font-weight: 600;
 }
 
+//blockquote { font-size: 1.4rem; }
+
 img {
-  max-width: 100%;
+  max-width: 55%;
   border-radius: 5px;
   display: block;
   margin: 0 auto;
 
 }
+
+/* img { max-width: 100%; } */
+
+.sidenote, .marginnote { float: right;
+                         clear: right;
+                         margin-right: -60%;
+                         width: 60%;
+                         margin-top: 0;
+                         margin-bottom: 0;
+                         font-size: 1.1rem;
+                         line-height: 1.3;
+                         vertical-align: baseline;
+                         position: relative; }
+
+figure { padding: 0;
+         border: 0;
+         font-size: 100%;
+         font: inherit;
+         vertical-align: baseline;
+         max-width: 55%;
+         -webkit-margin-start: 0;
+         -webkit-margin-end: 0;
+         margin: 0 0 3em 0; }
 
 img.emoji {
     display: inline;
@@ -266,6 +291,18 @@ img.emoji {
   color: $blue;
   background: $lightGray;
 }
+
+blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $lightGray;
+    border-right: 2px solid $lightGray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 18px;
+    font-family: $spartan;
+    // font-style: italic;
+    // font-family: $helveticaNeue;
+  }
 
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
@@ -300,7 +337,7 @@ img.emoji {
   }
 }
 
-.site-avatar {
+/* .site-avatar {
   float: left;
   width: 70px;
   height: 70px;
@@ -315,7 +352,7 @@ img.emoji {
   img {
     border-radius: 5px;
   }
-}
+} */
 
 .site-info {
   float: left;
@@ -351,8 +388,8 @@ img.emoji {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  float: left;
+  margin-top: 15px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 20px;
 
@@ -364,9 +401,10 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
     color: $blue;
-    text-align: right;
+    text-align: left;
     font-weight: 200;
     letter-spacing: 1px;
 
@@ -425,7 +463,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $white;
 }
 
 footer {
@@ -459,6 +497,7 @@ ul.comments {
   div {
     display: block;
     clear: left;
+
     //padding-top: $content-buffer;
   }
 }
