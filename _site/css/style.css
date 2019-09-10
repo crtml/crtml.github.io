@@ -236,6 +236,12 @@ img {
   vertical-align: baseline;
   position: relative;
 }
+@media screen and (max-width: 640px) {
+  .sidenote, .marginnote {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
 
 figure {
   padding: 0;
@@ -308,7 +314,7 @@ blockquote {
 }
 @media screen and (max-width: 640px) {
   .masthead {
-    text-align: center;
+    text-align: left;
   }
 }
 
