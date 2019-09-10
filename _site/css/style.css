@@ -120,11 +120,19 @@ body {
   padding: 0 250px;
   width: 100%;
 }
+@media screen and (max-width: 640px) {
+  .container {
+    margin: 0 left;
+    max-width: 200px;
+    padding: 0 0px;
+    width: 100%;
+  }
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: League Spartan, sans-serif;
   color: #2c2c2c;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;

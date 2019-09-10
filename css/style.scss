@@ -137,12 +137,21 @@ body {
   max-width: 1400px;
   padding: 0 250px;
   width: 100%;
+
+  @include mobile{
+  margin: 0 left;
+  max-width: 200px;
+  padding: 0 0px;
+  width: 100%;
 }
+}
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $spartan;
   color: $darkerGray;
-  font-weight: 400;
+  font-weight: 200;
   // font-variant: small-caps;
 
   line-height: 1.7;
