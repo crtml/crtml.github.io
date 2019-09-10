@@ -73,36 +73,6 @@ table {
   font-weight: normal;
   font-style: normal;
 }
-/* 
-@font-face {
-font-family: 'Andada';
-src: url('fonts/andada/andada-italic-webfont.eot');
-src: url('fonts/andada/andada-italic-webfont.eot?#iefix') format('embedded-opentype'),
-url('fonts/andada/andada-italic-webfont.woff') format('woff'),
-url('fonts/andada/andada-italic-webfont.ttf') format('truetype');
-font-weight: normal;
-font-style: italic;
-}
-
-@font-face {
-font-family: 'Andada';
-src: url('fonts/andada/andada-bold-webfont.eot');
-src: url('fonts/andada/andada-bold-webfont.eot?#iefix') format('embedded-opentype'),
-url('fonts/andada/andada-bold-webfont.woff') format('woff'),
-url('fonts/andada/andada-bold-webfont.ttf') format('truetype');
-font-weight: bold;
-font-style: normal;
-} */
-/* @font-face {
-font-family: 'Andada';
-src: url('fonts/andada/andadasc-regular-webfont.eot');
-src: url('fonts/andada/andadasc-regular-webfont.eot?#iefix') format('embedded-opentype'),
-url('fonts/andada/andadasc-regular-webfont.woff') format('woff'),
-url('fonts/andada/andadasc-regular-webfont.ttf') format('truetype');
-font-weight: bold;
-font-style: normal;
-font-variant: small-caps;
-} */
 html {
   font-size: 100%;
 }
@@ -123,8 +93,16 @@ body {
 @media screen and (max-width: 640px) {
   .container {
     margin: 0 left;
-    max-width: 200px;
-    padding: 0 0px;
+    max-width: 400px;
+    padding: 0 20px;
+    width: 100%;
+  }
+}
+@media only screen and (max-device-width: 1500px) {
+  .container {
+    margin: 0 left;
+    max-width: 400px;
+    padding: 0 20px;
     width: 100%;
   }
 }
@@ -239,7 +217,7 @@ img {
 @media screen and (max-width: 640px) {
   .sidenote, .marginnote {
     margin-right: 0%;
-    width: 100%;
+    width: 40%;
   }
 }
 
@@ -314,7 +292,7 @@ blockquote {
 }
 @media screen and (max-width: 640px) {
   .masthead {
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -376,7 +354,7 @@ nav {
 }
 @media screen and (max-width: 640px) {
   nav {
-    float: none;
+    float: left;
     margin-top: 9px;
     display: block;
     font-size: 16px;
