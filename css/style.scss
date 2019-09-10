@@ -348,7 +348,7 @@ blockquote {
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -409,7 +409,7 @@ nav {
   font-size: 20px;
 
   @include mobile {
-    float: none;
+    float: left;
     margin-top: 9px;
     display: block;
     font-size: 16px;
