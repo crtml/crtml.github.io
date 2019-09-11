@@ -5,16 +5,15 @@ published: true
 
 <!-- ![](assets/me_new.jpg) -->
 
-<div class="marginnote">
-	<img src="assets/me_new.jpg" alt="">
-</div>
-
 
 
 > “Tous les peuples ont besoin d’immigrés et du rapport d’altérité posé par l’intermédiaire de leur venue. J’affirme même que la vitalité d’un peuple correspond à sa capacité d’être lui-même dans toutes ses composantes dans un devenir immigré.”
 >
 > Guattari F. (2009), Les années d’hiver 1980–1985, Les prairies ordinaires.
 
+<div class="marginnote">
+	<img src="assets/me_new.jpg" alt="">
+</div>
 
 This web page is a little place that I sometimes visit. I stroll around, talk a bit, stretch my mind. There’s several different spaces here. There’s a space [about me](about/index.html) and this place, another about my current research [project]() on open source sustainability, and my [research]() in general. I may also write about [papers]() I read and liked or that incited me to write. I’m frequently (workload allowing) present on micro-blogging [platforms](). Occasionally, I may just write about anything that comes to mind in the [blurbs]() section.
 

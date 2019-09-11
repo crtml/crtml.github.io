@@ -1,103 +1,275 @@
 ---
 ---
-
 //
 // IMPORTS
 //
 
 @import "_reset";
+
 @import "_variables";
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
 /* BASE RULES */
 /**************/
 
-
 @font-face {
-font-family: 'League Spartan';
-src: url('fonts/league-spartan/leaguespartan-bold.eot');
-src: url('fonts/league-spartan/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
-     url('fonts/league-spartan/leaguespartan-bold.woff2') format('woff2'),
-     url('fonts/league-spartan/leaguespartan-bold.woff') format('woff'),
-     url('fonts/league-spartan/leaguespartan-bold.ttf') format('truetype'),
-     url('fonts/league-spartan/leaguespartan-bold.svg#league_spartanbold') format('svg');
-font-weight: bold;
-font-style: normal;
-
+    font-family: 'League Spartan';
+    src: url("fonts/league-spartan/leaguespartan-bold.eot");
+    src: url("fonts/league-spartan/leaguespartan-bold.eot?#iefix") format("embedded-opentype"), url("fonts/league-spartan/leaguespartan-bold.woff2") format("woff2"), url("fonts/league-spartan/leaguespartan-bold.woff") format("woff"), url("fonts/league-spartan/leaguespartan-bold.ttf") format("truetype"), url("fonts/league-spartan/leaguespartan-bold.svg#league_spartanbold") format("svg");
+    font-weight: bold;
+    font-style: normal;
 }
 
-
 @font-face {
-font-family: 'Andada';
-src: url('fonts/andada/andada-regular-webfont.eot');
-src: url('fonts/andada/andada-regular-webfont.eot?#iefix') format('embedded-opentype'),
-url('fonts/andada/andada-regular-webfont.woff') format('woff'),
-url('fonts/andada/andada-regular-webfont.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+    font-family: 'Andada';
+    src: url("fonts/andada/andada-regular-webfont.eot");
+    src: url("fonts/andada/andada-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/andada/andada-regular-webfont.woff") format("woff"), url("fonts/andada/andada-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
-
 
 html {
-  font-size: 100%;
+    font-size: 100%;
 }
 
 body {
-	background: $background;
-  // font: 18px/1.4 $helveticaNeue;
-  font: 19px/1.7 $andada;
-  color: $gray;
-  hyphens: auto;
+    background: $background;
+
+    // font: 18px/1.4 $helveticaNeue;
+    font: 19px / 1.7 $andada;
+    color: $gray;
+    hyphens: auto;
 }
 
- @-webkit-viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-} 
+@-webkit-viewport {
+    width: device-width;
+    zoom: 1;
+}
+
 .container {
-  margin: 0 left;
-  max-width: 80%;
-  padding: 0 250px;
-  //width: 100%;
-/* 
-    @include mobile{
+    //margin: 0 left;
+    //max-width: 80%;
+    padding: 0 10px;
+
+    /*  */
+    //width: 100%;
+
+    @media screen and (min-device-width: 1500px) {
+        max-width: 80%;
+        padding: 0 250px;
+    }
+
+ /*  @include mobile{
+    @media only screen and (orientation: landscape) {
+    max-width: 60%;
+    padding: 10px;
+  } 
+
+    }  */
+
+  /* @media only screen {
+  
+    max-width: 80%;
+    padding: 10px;
+  
+} */
+
+   /*  @include mobile{
     margin: 0 left;
     max-width: 400px;
-    padding: 0 20px; */
+    padding: 0 20px;
   
-/* 
+
   @media only screen and (max-device-width: 1500px) {
     margin: 0 left;
     max-width: 400px;
     padding: 0 20px;
     width: 100%;
-  }
- */
+  } */
+}
 
-  @media screen and (max-width: 320px) {
+h1, h2, h3, h4, h5, h6 {
+    font-family: $spartan;
+    color: $darkerGray;
+    font-weight: 200;
+
+    // font-variant: small-caps;
+
+    line-height: 1.7;
+    margin: 1em 0 15px;
+    padding: 0;
+
+    // text-transform: uppercase;
+
+    @include mobile {
+        line-height: 1.4;
+    }
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 32px;
+
+    a {
+        color: $blue;
+    }
+
+    //
+    font-variant: small-caps;
+}
+
+h2 {
+    text-transform: lowercase;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h3 {
+    text-transform: lowercase;
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 18px;
+
+    // color: $gray;
+    font-variant: normal;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+p {
+    margin: 15px 0;
+    hyphens: auto;
+}
+
+a {
+    color: $blue;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover, &:active {
+        color: $gray;
+        background-color: $lightBlue;
+        border-radius: 5px;
+    }
+}
+
+ul, ol {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+    margin: 0;
+}
+
+ul ul, ol ul {
+    list-style-type: circle;
+}
+
+em, i {
+    font-style: italic;
+    font-weight: normal;
+}
+
+strong, b {
+    font-weight: 600;
+}
+
+//blockquote { font-size: 1.4rem; }
+
+img {
+    max-width: 55%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* img { max-width: 100%; } */
+
+.sidenote, .marginnote {
+    float: right;
+    clear: right;
+    margin-right: -60%;
+    width: 60%;
+
+    //max-width: 60%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    vertical-align: baseline;
+    position: relative;
+
+    @include mobile {
+        margin-right: 0%;
+        margin-left: 25%;
+        width: 40%;
+        max-width: 40%;
+        float: none;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+
+    @media screen and (min-device-width: 800px) and (max-device-width: 1000px) {
+        max-width: 10%;
+        padding: 0 10px;
+        margin-right: 0%;
+        margin-left: 25%;
+        width: 40%;
+        max-width: 40%;
+        float: none;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+ /*  @media screen and (max-width: 320px) {
     margin: 0 left;
-    max-width: 319px;
+    margin-right: 0%
+    max-width: 80%;
+    padding: 0 20px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    margin: 0 left;
+    margin-right: 0%
+    max-width: 80%;
     padding: 0 20px;
   }
 
   @media screen and (min-width: 321px) and (max-width: 550px) {
-    margin: 0 left;
-    max-width: 100%;
+    margin-right: 0%;
+    max-width: 80%;
     padding: 0 20px;
   }
   @media screen and (min-width: 551px) and (max-width: 768px) {
     margin: 0 left;
-    max-width: 100%;
+    max-width: 60%;
     padding: 0 20px;
   }
   @media screen and (min-width: 769px) and (max-width: 900px) {
-    margin: 0 left;
+    margin-right: 0%;
     max-width: 80%;
     padding: 0 20px;
   }
   @media screen and (min-width: 901px) and (max-width: 1200px) {
-    margin: 0 left;
+    margin: 0%;
     max-width: 80%;
     padding: 0 20px;
   }
@@ -110,142 +282,20 @@ body {
     margin: 0 left;
     max-width: 80%;
     padding: 0 20px;
-  }
+  } */
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $spartan;
-  color: $darkerGray;
-  font-weight: 200;
-  // font-variant: small-caps;
-
-  line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
-  // text-transform: uppercase;
-
-  @include mobile {
-    line-height: 1.4;
-  }
+figure {
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    max-width: 55%;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin: 0 0 3em 0;
 }
-
-h1 {
-  font-weight: 400;
-  font-size: 32px;
-  a {
-    color: $blue;
-  }  //
-  font-variant: small-caps;
-
-}
-
-h2 {
-  text-transform: lowercase;
-  font-weight: 400;
-  font-size: 30px;
-}
-
-h3 {
-  text-transform: lowercase;
-  font-size: 22px;
-}
-
-h4 {
-  font-size: 18px;
-  // color: $gray;
-  font-variant: normal;
-  font-style: italic;
-  text-transform: lowercase;
-
-
-}
-
-p {
-  margin: 15px 0;
-  hyphens: auto;
-}
-
-a {
-  color: $blue;
-  text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $gray;
-    background-color: $lightBlue;
-    border-radius: 5px;
-  }
-}
-
-ul, ol {
-  margin: 15px 0;
-  padding-left: 30px;
-}
-
-ul {
-  list-style-type: disc;
-}
-
-ol {
-  list-style-type: decimal;
-}
-
-ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
-}
-
-ul ul, ol ul {
-  list-style-type: circle;
-}
-
-em, i {
-  font-style: italic;
-  font-weight: normal;
-}
-
-strong, b {
-  font-weight: 600;
-}
-
-//blockquote { font-size: 1.4rem; }
-
-img {
-  max-width: 55%;
-  border-radius: 5px;
-  display: block;
-  margin: 0 auto;
-
-}
-
-/* img { max-width: 100%; } */
-
-.sidenote, .marginnote { float: right;
-                         clear: right;
-                         margin-right: -60%;
-                         width: 60%;
-                         margin-top: 0;
-                         margin-bottom: 0;
-                         font-size: 1.1rem;
-                         line-height: 1.3;
-                         vertical-align: baseline;
-                         position: relative; 
-                            @media screen{
-
-                                                     margin-right: 0%;
-                                                     //width: 40%;
-                                                     max-width:40%;
-                                                     float: center;
-                            }
-                       }
-
-figure { padding: 0;
-         border: 0;
-         font-size: 100%;
-         font: inherit;
-         vertical-align: baseline;
-         max-width: 55%;
-         -webkit-margin-start: 0;
-         -webkit-margin-end: 0;
-         margin: 0 0 3em 0; }
 
 img.emoji {
     display: inline;
@@ -259,19 +309,20 @@ img.emoji {
 }
 
 .date {
-  // font-style: italic;
-  color: $gray;
-  font-size: 12px;
+    // font-style: italic;
+    color: $gray;
+    font-size: 12px;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $blue;
-  background: $lightGray;
+    color: $blue;
+    background: $lightGray;
 }
+
 ::selection {
-  color: $blue;
-  background: $lightGray;
+    color: $blue;
+    background: $lightGray;
 }
 
 blockquote {
@@ -282,9 +333,10 @@ blockquote {
     color: $gray;
     font-size: 18px;
     font-family: $spartan;
+
     // font-style: italic;
     // font-family: $helveticaNeue;
-  }
+}
 
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
@@ -307,16 +359,16 @@ blockquote {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+    padding: 20px 0;
+    border-bottom: 1px solid $lightGray;
 
-  @include mobile {
-    text-align: center;
-  }
+    @include mobile {
+        text-align: center;
+    }
 }
 
 /* .site-avatar {
@@ -337,69 +389,70 @@ blockquote {
 } */
 
 .site-info {
-  float: left;
+    float: left;
 
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
+    @include mobile {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 .site-name {
-  margin: 0;
-  color: $blue;
-  cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 200;
-  font-size: 28px;
-  letter-spacing: 1px;
-  font-variant: normal;
+    margin: 0;
+    color: $blue;
+    cursor: pointer;
+    font-family: $helveticaNeue;
+    font-weight: 200;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-variant: normal;
 }
 
 .site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
-  font-family: $spartan;
+    margin: -5px 0 0 0;
+    color: $gray;
+    font-size: 16px;
+    font-family: $spartan;
 
-
-  @include mobile {
-    margin: 3px 0;
-  }
+    @include mobile {
+        margin: 3px 0;
+    }
 }
 
 nav {
-  float: left;
-  margin-top: 15px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 20px;
-
-  @include mobile {
     float: left;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
+    margin-top: 15px;
 
-  a {
-    margin-left: 0px;
-    margin-right: 10px;
-    color: $blue;
-    text-align: left;
-    font-weight: 200;
-    letter-spacing: 1px;
+    // @TODO: Vertically middle align
+    font-family: $helveticaNeue;
+    font-size: 20px;
 
     @include mobile {
-      margin: 0 10px;
-      color: $blue;
+        float: left;
+        margin-top: 9px;
+        display: block;
+        font-size: 16px;
     }
-  }
+
+
+    a {
+        margin-left: 0px;
+        margin-right: 10px;
+        color: $blue;
+        text-align: left;
+        font-weight: 200;
+        letter-spacing: 1px;
+
+        @include mobile {
+            margin: 0 10px;
+            color: $blue;
+        }
+    }
 }
 
-.footnotes{
-  border-top: 1px solid $lightGray;
-
+.footnotes {
+    border-top: 1px solid $lightGray;
 }
 
 //
@@ -407,50 +460,52 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+    padding-bottom: 2em;
+    border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+    padding-bottom: 1em;
+    border-bottom: none;
 }
 
 .post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $lightGray;
-    border-right: 2px solid $lightGray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 18px;
-    font-family: $spartan;
-    // font-style: italic;
-    // font-family: $helveticaNeue;
-  }
+    blockquote {
+        margin: 1.8em .8em;
+        border-left: 2px solid $lightGray;
+        border-right: 2px solid $lightGray;
+        padding: 0.1em 1em;
+        color: $gray;
+        font-size: 18px;
+        font-family: $spartan;
 
-  .comments {
-    margin-top: 10px;
-  }
+        // font-style: italic;
+        // font-family: $helveticaNeue;
+   
+    }
 
-  .read-more {
-    // text-transform: uppercase;
-    // font-variant: small-caps;
-    font-size: 20px;
-    font-family: $spartan;
-  }
+    .comments {
+        margin-top: 10px;
+    }
+
+    .read-more {
+        // text-transform: uppercase;
+        // font-variant: small-caps;
+        font-size: 20px;
+        font-family: $spartan;
+    }
 }
 
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $white;
+    margin-top: 50px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: $white;
 }
 
 footer {
-  padding: 20px 0;
-  text-align: center;
+    padding: 20px 0;
+    text-align: center;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
@@ -465,154 +520,162 @@ footer {
 //
 
 ul.comments {
-  img {
-    width: 40px;
-    height: 40px;
-    border: solid 1px #ccc;
-    padding: 2px;
-    margin-right: 8px;
-    float:left;
-  }
-  .commenter {
-    float:left;
-  }
-  div {
-    display: block;
-    clear: left;
+    img {
+        width: 40px;
+        height: 40px;
+        border: solid 1px #ccc;
+        padding: 2px;
+        margin-right: 8px;
+        float: left;
+    }
 
-    //padding-top: $content-buffer;
-  }
+    .commenter {
+        float: left;
+    }
+
+    div {
+        display: block;
+        clear: left;
+
+        //padding-top: $content-buffer;
+   
+    }
 }
 
-  .comment {
+.comment {
     ul li {
-      border-style: none;
-      padding: 0;
-      margin:0;
+        border-style: none;
+        padding: 0;
+        margin: 0;
     }
+
     h1, h2, h3, h4, h5 {
-      color: #333;
-      margin:1em 0 0.5em;
-      font-size: 1em;
+        color: #333;
+        margin: 1em 0 0.5em;
+        font-size: 1em;
     }
 
     h1 {
-      font-size: 1.8em;
+        font-size: 1.8em;
     }
+
     h2 {
-      font-size: 1.6em;
+        font-size: 1.6em;
     }
 
     code {
-      display: block;
-      padding: 1em;
-      font-size: 0.7em;
-      background-color: #333;
-      color:#eee;
+        display: block;
+        padding: 1em;
+        font-size: 0.7em;
+        background-color: #333;
+        color: #eee;
     }
-  }
+}
 
-  .comment-form {
+.comment-form {
     background-color: #eee;
     padding: 1px 32px 32px 32px;
 
     label {
-      display:block;
-      color:555;
-      margin-top: 0.6em;
-      font-size: 0.9em;
+        display: block;
+        color: 555;
+        margin-top: 0.6em;
+        font-size: 0.9em;
 
-      span {
-        color: #aaa;
-        margin-left:0.2em;
-      }
+        span {
+            color: #aaa;
+            margin-left: 0.2em;
+        }
     }
 
     input, textarea {
-      font-size: 1em;
-      width: 100%;
-      padding:  0.2em 0.4em;
-    }
-  // }
-
-  .submit {
-    margin-top: 0.6em;
-    background-color: #333;
-    color:#eee;
-    padding: 0.6em;
-    border-radius: 4px;
-    border-style: none;
-    cursor: pointer;
-
-    &:hover {
-      //background-color: $accent-color;
-      color: #fff;
-    }
-  }
-
-  textarea {
-    width: 100%;
-    height: 10em;
-    }
-  }
-
-    //form.search {
-    //margin: 1em 0;
-    //padding:2em;
-    //background-color: #eee;
-    //border-radius: 2px;
-
-    form.input {
-      font-size: 1.2em;
-      font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
-      padding: 0.2em;
-      margin:0.2em;
-      color: #555;
-      width: 60%;
+        font-size: 1em;
+        width: 100%;
+        padding: 0.2em 0.4em;
     }
 
-  ul.listing {
-  margin: 1em 0 3em;
-  list-style: none;
-  border-top: 1px solid #eee;
+    // }
+
+    .submit {
+        margin-top: 0.6em;
+        background-color: #333;
+        color: #eee;
+        padding: 0.6em;
+        border-radius: 4px;
+        border-style: none;
+        cursor: pointer;
+
+        &:hover {
+            //background-color: $accent-color;
+            color: #fff;
+        }
+    }
+
+    textarea {
+        width: 100%;
+        height: 10em;
+    }
 }
+
+//form.search {
+//margin: 1em 0;
+//padding:2em;
+//background-color: #eee;
+//border-radius: 2px;
+
+form.input {
+    font-size: 1.2em;
+    font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+    padding: 0.2em;
+    margin: 0.2em;
+    color: #555;
+    width: 60%;
+}
+
+ul.listing {
+    margin: 1em 0 3em;
+    list-style: none;
+    border-top: 1px solid #eee;
+}
+
 ul.listing li {
-  padding: 0.8em 0;
-  border-bottom: 1px solid #eee;
+    padding: 0.8em 0;
+    border-bottom: 1px solid #eee;
 }
+
 ul.listing time {
-  display: block;
-  color:#bbb;
-  font-size: 0.8em;
+    display: block;
+    color: #bbb;
+    font-size: 0.8em;
 }
 
 .listing {
+    margin: 1em 0 3em;
 
-  margin:1em 0 3em;
+    h2 {
+        margin: 0;
 
-  h2 {
-    margin:0;
+        a {
+            &:link,
+            &:visited {
+                color: #000;
+                border-bottom-style: none;
+                display: inline-block;
+            }
 
-    a {
-      &:link,
-      &:visited {
-        color: #000;
-        border-bottom-style: none;
-        display: inline-block;
-      }
-      &:hover,
-      &:focus {
-        color: #fff;
-        background-color: #000;
-        padding: 6px 8px;
-        margin: -6px -8px;
-      }
+            &:hover,
+            &:focus {
+                color: #fff;
+                background-color: #000;
+                padding: 6px 8px;
+                margin: -6px -8px;
+            }
+        }
+
+        .grab {
+            font-style: normal;
+            font-size: 1em;
+            margin: 1em 0;
+        }
     }
-.grab {
-    font-style:normal;
-    font-size: 1em;
-    margin: 1em 0;
-  }
-
 }
-  }

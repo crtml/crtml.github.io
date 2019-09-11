@@ -84,75 +84,43 @@ body {
   hyphens: auto;
 }
 
-@viewport {
+@-webkit-viewport {
   width: device-width;
   zoom: 1;
 }
 .container {
-  margin: 0 left;
-  max-width: 80%;
-  padding: 0 250px;
-  /* 
-      @include mobile{
-      margin: 0 left;
-      max-width: 400px;
-      padding: 0 20px; */
-  /* 
-    @media only screen and (max-device-width: 1500px) {
-      margin: 0 left;
-      max-width: 400px;
-      padding: 0 20px;
-      width: 100%;
-    }
-   */
-}
-@media screen and (max-width: 320px) {
-  .container {
-    margin: 0 left;
-    max-width: 319px;
-    padding: 0 20px;
-  }
-}
-@media screen and (min-width: 321px) and (max-width: 550px) {
-  .container {
-    margin: 0 left;
-    max-width: 100%;
-    padding: 0 20px;
-  }
-}
-@media screen and (min-width: 551px) and (max-width: 768px) {
-  .container {
-    margin: 0 left;
-    max-width: 100%;
-    padding: 0 20px;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 900px) {
-  .container {
-    margin: 0 left;
+  padding: 0 10px;
+  /*  */
+ /*  @include mobile{
+    @media only screen and (orientation: landscape) {
+    max-width: 60%;
+    padding: 10px;
+  } 
+
+    }  */
+  /* @media only screen {
+  
     max-width: 80%;
-    padding: 0 20px;
-  }
-}
-@media screen and (min-width: 901px) and (max-width: 1200px) {
-  .container {
+    padding: 10px;
+  
+} */
+   /*  @include mobile{
     margin: 0 left;
-    max-width: 80%;
+    max-width: 400px;
     padding: 0 20px;
-  }
-}
-@media screen and (min-width: 1201px) and (max-width: 1400px) {
-  .container {
+  
+
+  @media only screen and (max-device-width: 1500px) {
     margin: 0 left;
-    max-width: 80%;
+    max-width: 400px;
     padding: 0 20px;
-  }
+    width: 100%;
+  } */
 }
-@media screen and (min-width: 1400px) and (max-width: 1800px) {
+@media screen and (min-device-width: 1500px) {
   .container {
-    margin: 0 left;
     max-width: 80%;
-    padding: 0 20px;
+    padding: 0 250px;
   }
 }
 
@@ -262,12 +230,75 @@ img {
   line-height: 1.3;
   vertical-align: baseline;
   position: relative;
+ /*  @media screen and (max-width: 320px) {
+    margin: 0 left;
+    margin-right: 0%
+    max-width: 80%;
+    padding: 0 20px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    margin: 0 left;
+    margin-right: 0%
+    max-width: 80%;
+    padding: 0 20px;
+  }
+
+  @media screen and (min-width: 321px) and (max-width: 550px) {
+    margin-right: 0%;
+    max-width: 80%;
+    padding: 0 20px;
+  }
+  @media screen and (min-width: 551px) and (max-width: 768px) {
+    margin: 0 left;
+    max-width: 60%;
+    padding: 0 20px;
+  }
+  @media screen and (min-width: 769px) and (max-width: 900px) {
+    margin-right: 0%;
+    max-width: 80%;
+    padding: 0 20px;
+  }
+  @media screen and (min-width: 901px) and (max-width: 1200px) {
+    margin: 0%;
+    max-width: 80%;
+    padding: 0 20px;
+  }
+  @media screen and (min-width: 1201px) and (max-width: 1400px) {
+    margin: 0 left;
+    max-width: 80%;
+    padding: 0 20px;
+  }
+  @media screen and (min-width: 1400px) and (max-width: 1800px) {
+    margin: 0 left;
+    max-width: 80%;
+    padding: 0 20px;
+  } */
 }
-@media screen {
+@media screen and (max-width: 640px) {
   .sidenote, .marginnote {
     margin-right: 0%;
+    margin-left: 25%;
+    width: 40%;
     max-width: 40%;
-    float: center;
+    float: none;
+  }
+  .sidenote img, .marginnote img {
+    max-width: 100%;
+  }
+}
+@media screen and (min-device-width: 800px) and (max-device-width: 1000px) {
+  .sidenote, .marginnote {
+    max-width: 10%;
+    padding: 0 10px;
+    margin-right: 0%;
+    margin-left: 25%;
+    width: 40%;
+    max-width: 40%;
+    float: none;
+  }
+  .sidenote img, .marginnote img {
+    max-width: 100%;
   }
 }
 
