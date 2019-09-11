@@ -84,6 +84,10 @@ body {
   hyphens: auto;
 }
 
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
 .container {
   margin: 0 left;
   max-width: 80%;
@@ -102,16 +106,10 @@ body {
     }
    */
 }
-@viewport {
-  .container {
-    width: device-width;
-    zoom: 1;
-  }
-}
 @media screen and (max-width: 320px) {
   .container {
     margin: 0 left;
-    max-width: 100px;
+    max-width: 319px;
     padding: 0 20px;
   }
 }
@@ -265,10 +263,11 @@ img {
   vertical-align: baseline;
   position: relative;
 }
-@media screen and (max-width: 640px) {
+@media screen {
   .sidenote, .marginnote {
     margin-right: 0%;
-    width: 40%;
+    max-width: 40%;
+    float: center;
   }
 }
 

@@ -51,6 +51,10 @@ body {
   hyphens: auto;
 }
 
+ @viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} 
 .container {
   margin: 0 left;
   max-width: 80%;
@@ -70,13 +74,10 @@ body {
     width: 100%;
   }
  */
- @viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-} 
+
   @media screen and (max-width: 320px) {
     margin: 0 left;
-    max-width: 100px;
+    max-width: 319px;
     padding: 0 20px;
   }
 
@@ -227,10 +228,12 @@ img {
                          line-height: 1.3;
                          vertical-align: baseline;
                          position: relative; 
-                            @include mobile{
+                            @media screen{
 
                                                      margin-right: 0%;
-                                                     width: 40%;
+                                                     //width: 40%;
+                                                     max-width:40%;
+                                                     float: center;
                             }
                        }
 
