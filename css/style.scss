@@ -70,6 +70,10 @@ body {
     width: 100%;
   }
  */
+ @viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} 
   @media screen and (max-width: 320px) {
     margin: 0 left;
     max-width: 100px;
@@ -78,12 +82,12 @@ body {
 
   @media screen and (min-width: 321px) and (max-width: 550px) {
     margin: 0 left;
-    max-width: 80%;
+    max-width: 100%;
     padding: 0 20px;
   }
   @media screen and (min-width: 551px) and (max-width: 768px) {
     margin: 0 left;
-    max-width: 80%;
+    max-width: 100%;
     padding: 0 20px;
   }
   @media screen and (min-width: 769px) and (max-width: 900px) {
@@ -93,7 +97,7 @@ body {
   }
   @media screen and (min-width: 901px) and (max-width: 1200px) {
     margin: 0 left;
-    max-width: 60%;
+    max-width: 80%;
     padding: 0 20px;
   }
   @media screen and (min-width: 1201px) and (max-width: 1400px) {
