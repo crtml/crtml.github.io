@@ -53,7 +53,7 @@ body {
 
 .container {
   margin: 0 left;
-  max-width: 60%;
+  max-width: 80%;
   padding: 0 250px;
   //width: 100%;
 /* 
@@ -78,17 +78,17 @@ body {
 
   @media screen and (min-width: 321px) and (max-width: 550px) {
     margin: 0 left;
-    max-width: 60%;
+    max-width: 80%;
     padding: 0 20px;
   }
   @media screen and (min-width: 551px) and (max-width: 768px) {
     margin: 0 left;
-    max-width: 60%;
+    max-width: 80%;
     padding: 0 20px;
   }
   @media screen and (min-width: 769px) and (max-width: 900px) {
     margin: 0 left;
-    max-width: 60%;
+    max-width: 80%;
     padding: 0 20px;
   }
   @media screen and (min-width: 901px) and (max-width: 1200px) {
@@ -98,7 +98,12 @@ body {
   }
   @media screen and (min-width: 1201px) and (max-width: 1400px) {
     margin: 0 left;
-    max-width: 60%;
+    max-width: 80%;
+    padding: 0 20px;
+  }
+  @media screen and (min-width: 1400px) and (max-width: 1800px) {
+    margin: 0 left;
+    max-width: 80%;
     padding: 0 20px;
   }
 }
