@@ -4,7 +4,7 @@ layout: page
 published: true
 ---
 
-My research focuses on two main tracks (see [publications](#publications) and [projects](#projects) for more information).
+<!-- My research focuses on two main tracks (see [publications](#publications) and [projects](#projects) for more information).
 
 - (1) Alternative forms of production (e.g. open source, Free software, crowdsourcing, open innovation) and information systems development (ISD):
 
@@ -19,7 +19,7 @@ My research focuses on two main tracks (see [publications](#publications) and [p
 
   - Developing stakeholder theory to account for the particularities of these forms of participation;
   - Offering a critique of the sharing economy from an information systems perspective;
-  - Theorising the notion of well-being and happiness in the increasingly boundary-less contexts afforded by the alternative forms of production.
+  - Theorising the notion of well-being and happiness in the increasingly boundary-less contexts afforded by the alternative forms of production. -->
 
 # Publications
 
@@ -27,11 +27,13 @@ For an overview of my research, [go up](#top), for current research [projects](#
 
 ## Journal articles
 
-- Curto-Millet, D., Shaikh, M. (2017), [The Emergence of Openness in Open Source Projects: The Case of openEHR](https://link.springer.com/article/10.1057/s41265-017-0042-x), _Journal of Information Technology_, Conboy, K., Feller, J., Leimeister, J. M., Morgan, L., Schlagwein, D. (eds.) [pdf](/assets/JIT_article_DCM_MS.pdf)
+- Curto-Millet, D., Shaikh, M. (2017), [The Emergence of Openness in Open Source Projects: The Case of openEHR](https://link.springer.com/article/10.1057/s41265-017-0042-x), _Journal of Information Technology_, Conboy, K., Feller, J., Leimeister, J. M., Morgan, L., Schlagwein, D. (eds.) [[pdf]](/assets/JIT_article_DCM_MS.pdf)
 
-- Curto-Millet, D. (2013). 'Sustainability and Governance in Developing Open Source Projects as Processes of In-Becoming', January, Technology Innovation Management Review, (<http://timreview.ca/article/649>)
+- Curto-Millet, D. (2013). [Sustainability and Governance in Developing Open Source Projects as Processes of In-Becoming](http://timreview.ca/article/649), January, Technology Innovation Management Review, [[pdf]](https://timreview.ca/sites/default/files/article_PDF/Curto-Millet_TIMReview_January2013.pdf)
 
 ## Book items
+
+- Pujadas, R., Curto-Millet, D., (2019), [From Matchmaking to Boundary Making: Thinking Infrastructures and Decentring Digital Platforms in the Sharing Economy](https://www.emerald.com/insight/content/doi/10.1108/S0733-558X20190000062017/full/html), in *Research in the Sociology of Organizations: Thinking Infrastructures*, Eds. Kornberger, M., Bowker, G., Pollock, N., Miller, P., Mennicken, A., Nucho, J. R., and Elyachar, J. [[pdf]](http://eprints.lse.ac.uk/100917/1/Pujadas_matchmaking_boundary_making.pdf")
 
 - Curto-Millet, D., et al. (forthcoming) Ethics in crowdsourcing: Revisiting and revising the role of stakeholder theory, _New Developments in Crowdsourcing_, Eds. Tucci, C., West, J, Buttice, V., Oxford University Press
 
